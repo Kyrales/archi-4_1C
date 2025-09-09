@@ -38,4 +38,5 @@
   <content>CommonPicture.ТИ_ТипСоставнойОсновной</content>
   <content>CommonPicture.ТИ_СостоянияРасширенийКонфигурации</content>
   <content>CommonPicture.ТИ_СостоянияРасширенийПодключено</content>
+  <content>Constant.ТИ_ОсновнаяОрганизация</content>
 </mdclass:Subsystem>

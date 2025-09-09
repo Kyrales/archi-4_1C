@@ -42,7 +42,6 @@
     <value>https://github.com/Kyrales/archiC4_1C</value>
   </configurationInformationAddress>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.26</compatibilityMode>
   <languages uuid="508119ba-68be-475b-8743-d8f1d7a68c9f" extendedConfigurationObject="db4a9ccb-9ef5-4b3c-8577-b6fe5db1b62e">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -64,7 +63,7 @@
   <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
   <definedTypes>DefinedType.Организация</definedTypes>
   <definedTypes>DefinedType.Пользователь</definedTypes>
-  <constants>Constant._ДемоОсновнаяОрганизация</constants>
+  <constants>Constant.ТИ_ОсновнаяОрганизация</constants>
   <catalogs>Catalog.СерверыРесурсов</catalogs>
   <catalogs>Catalog.РесурсыИнформационныхСистем</catalogs>
   <catalogs>Catalog.ИнформационныеСистемы</catalogs>

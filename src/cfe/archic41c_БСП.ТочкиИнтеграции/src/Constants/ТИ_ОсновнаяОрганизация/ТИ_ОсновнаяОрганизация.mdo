@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ecf65608-d434-4fd7-901a-a69859f42cb5">
+  <producedTypes>
+    <managerType typeId="3e29b864-6af7-4b81-807f-182e756a4638" valueTypeId="4ab3d452-101c-4550-8fe6-b8d6b9e2b3f7"/>
+    <valueManagerType typeId="f644ebe8-71a2-41bb-8d78-6ae941919bf3" valueTypeId="885ab5fc-e065-4763-859f-ee45b45fbe42"/>
+    <valueKeyType typeId="dd1e4c5c-8f3c-47e4-8a4f-789bafa7d37b" valueTypeId="b2f1975c-1bf2-411d-b85b-20b269d737a2"/>
+  </producedTypes>
+  <name>ТИ_ОсновнаяОрганизация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основная организация (ТИ)</value>
+  </synonym>
+  <type>
+    <types>DefinedType.Организация</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
