@@ -60,6 +60,7 @@
   <commonModules>CommonModule.ТИ_ОбщегоНазначенияКлиентСервер</commonModules>
   <commonModules>CommonModule.ТочкиИнтеграцииМоделиС4</commonModules>
   <commonModules>CommonModule.ТочкиИнтеграцииСервер</commonModules>
+  <commonModules>CommonModule.УправлениеПечатьюПереопределяемый</commonModules>
   <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
   <definedTypes>DefinedType.Организация</definedTypes>
   <definedTypes>DefinedType.Пользователь</definedTypes>
