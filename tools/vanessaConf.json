@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/vanessa-opensource/vanessa-runner/develop/vanessa-runner-schema.json",
+  "ВыполнитьСценарии": true,
+  "ЗавершитьРаботуСистемы": true,
+  "ЗакрытьTestClientПослеЗапускаСценариев": true,
+  "DebugLog": false,
+  "КаталогПроекта": "$workspaceRoot",
+  "КаталогФич": "$workspaceRoot/features",
+  "КаталогиБиблиотек": [
+    "$instrumentsRoot/features/libraries",
+    "$workspaceRoot/features"
+  ],
+  "ИмяСборки": "kyporos",
+  "СписокТеговИсключение": [
+    "IgnoreOnCIMainBuild",
+    "FirstStart",
+    "Draft"
+  ],
+  "ДелатьОтчетВФорматеjUnit": true,
+  "ДелатьОтчетВФорматеАллюр": true,
+  "КаталогOutputAllureБазовый": "$workspaceRoot/out/bddallure",
+  "КаталогOutputjUnit": "$workspaceRoot/out/junit",
+  "ВыгружатьСтатусВыполненияСценариевВФайл": true,
+  "ПутьКФайлуДляВыгрузкиСтатусаВыполненияСценариев": "$workspaceRoot/out/vbStatus.log",
+  "ДелатьЛогВыполненияСценариевВТекстовыйФайл": true,
+  "ИмяФайлаЛогВыполненияСценариев": "$workspaceRoot/out/vbOnline.log",
+  "ВыводитьВЛогВыполнениеШагов": false,
+  "ДелатьЛогВыполненияСценариевВЖР": "Истина",
+  "ДелатьСкриншотПриВозникновенииОшибки": false,
+  "ТаймаутЗапуска1С": "120"
+}

@@ -1,0 +1,161 @@
+{
+  "$schema": "https://raw.githubusercontent.com/firstBitMarksistskaya/jenkins-lib/refs/heads/develop/resources/schema.json",
+  "v8version": "8.3.25.1546",
+  "edtVersion": "2024.2.6:x86_64",
+  "srcDir": "src/cf",
+  "sourceFormat": "edt",
+  "defaultBranch": "main",
+  "secrets": {
+    "storagePath": "",
+    "storage": "",
+    "telegramBotToken": "UNKNOWN_ID",
+    "telegramChatId": "UNKNOWN_ID"
+  },
+  "stages": {
+    "initSteps": true,
+    "sonarqube": false,
+    "bdd": true,
+    "syntaxCheck": true,
+    "edtValidate": false,
+    "smoke": false,
+    "yaxunit": true,
+    "email": true,
+    "telegram": false
+  },
+  "timeout": {
+    "smoke": 240,
+    "yaxunit": 240,
+    "bdd": 120,
+    "getBinaries": 60,
+    "createInfoBase": 60,
+    "loadConfiguration": 60,
+    "designerToEdtFormatTransformation": 60,
+    "edtToDesignerFormatTransformation": 60,
+    "edtValidate": 240,
+    "initInfoBase": 60,
+    "loadExtensions": 60,
+    "resultTransformation": 10,
+    "sonarqube": 90,
+    "syntaxCheck": 240,
+    "zipInfoBase": 60
+  },
+  "initInfobase": {
+    "initMethod": "fromSource",
+    "runMigration": true,
+    "additionalInitializationSteps": [],
+    "templateDBPath": "e:/1C/build/archic4_1c/1Cv8.1CD",
+    "vrunnerSettings": "./tools/vrunner.json",
+    "extensions": [
+      {
+        "initMethod": "fromSource",
+        "name": "YAXUNIT",
+        "path": "./src/cfe/archic4_1c.YAXUNIT",
+        "stages": [
+          "yaxunit"
+        ]
+      }
+    ]
+  },
+  "bdd": {
+    "vrunnerSteps": [
+      "vanessa --settings ./tools/vrunner.json"
+    ],
+    "coverage": true,
+    "dbgsPort": 1550
+  },
+  "coverage": {
+    "dbgsPath": "",
+    "coverage41CPath": "c:/tools/Coverage/bin/Coverage41C.bat"
+  },
+  "sonarqube": {
+    "sonarQubeInstallation": "",
+    "useSonarScannerFromPath": true,
+    "sonarScannerToolName": "sonar-scanner",
+    "infoBaseUpdateModuleName" : "",
+    "branchAnalysisConfiguration": "auto",
+    "waitForQualityGate": false
+  },
+  "syntaxCheck": {
+    "groupErrorsByMetadata": true,
+    "exceptionFile": "./tools/syntax-check-exception-file.txt",
+    "checkModes": [
+      "-ThinClient",
+      "-Server",
+      "-ConfigLogIntegrity",
+      "-HandlersExistence",
+      "-ExtendedModulesCheck",
+      "-ExternalConnection"
+    ],
+    "vrunnerSettings": "./tools/vrunner.json",
+    "publishToJUnitReport": false,
+    "publishToAllureReport": true
+  },
+  "smoke": {
+    "vrunnerSettings": "./tools/vrunner.json",
+    "xddConfigPath": "./tools/xUnitParams.json",
+    "publishToAllureReport": false,
+    "publishToJUnitReport": true
+  },
+  "yaxunit": {
+    "vrunnerSettings": "./tools/vrunner.json",
+    "configPath": "./tools/yaxunit.json",
+    "publishToAllureReport": true,
+    "publishToJUnitReport": false,
+    "coverage": true,
+    "dbgsPort": 1551
+  },
+  "resultsTransform": {
+    "transformer": "stebi",
+    "genericIssueFormat": "Generic_Issue",
+    "removeSupport": true,
+    "supportLevel": 0
+  },
+  "notifications": {
+    "email": {
+      "onAlways": true,
+      "onFailure": true,
+      "onUnstable": false,
+      "onSuccess": false,
+      "alwaysOptions": {
+        "attachLog": false,
+        "directRecipients": [],
+        "recipientProviders": [
+          "developers",
+          "requestor"
+        ]
+      },
+      "failureOptions": {
+        "attachLog": true,
+        "directRecipients": [],
+        "recipientProviders": [
+          "developers",
+          "requestor",
+          "brokenBuildSuspects"
+        ]
+      },
+      "successOptions": {
+        "attachLog": false,
+        "directRecipients": [],
+        "recipientProviders": [
+          "developers",
+          "requestor"
+        ]
+      },
+      "unstableOptions": {
+        "attachLog": false,
+        "directRecipients": [],
+        "recipientProviders": [
+          "developers",
+          "requestor"
+        ]
+      }
+    },
+    "telegram": {
+      "onAlways": true,
+      "onFailure": false,
+      "onUnstable": false,
+      "onSuccess": false
+    }
+  },
+  "logosConfig": ""
+}

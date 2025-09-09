@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/vanessa-opensource/vanessa-runner/refs/heads/develop/vanessa-runner-schema.json",
+  "default": {
+    "--workspace": ".",
+    "--additional": "/DisplayAllFunctions /Lru  /iTaxi /debug -http -attach /debuggerURL http://localhost:1551",
+    "--ordinaryapp": "-1"
+  },
+  "run": {
+    "--command": "ЗапуститьОбновлениеИнформационнойБазы;ЗавершитьРаботуСистемы;",
+    "--execute": "$runnerRoot/epf/ЗакрытьПредприятие.epf"
+  },
+  "vanessa": {
+    "--vanessasettings": "./tools/VAParams.json",
+    "--pathvanessa": "C:/tools/vanessa-automation-single.epf"
+  }
+}
