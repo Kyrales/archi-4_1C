@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9482e272-b551-4ba5-a27a-06fa0359a8d5">
+  <name>ТранспортЭлектроннаяПочта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Транспорт электронная почта</value>
+  </synonym>
+</mdclass:CommonPicture>

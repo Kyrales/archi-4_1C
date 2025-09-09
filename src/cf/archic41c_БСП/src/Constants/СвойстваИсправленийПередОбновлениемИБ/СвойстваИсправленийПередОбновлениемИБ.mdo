@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e984fbf9-6b89-4d38-8938-b2b0e6623c7a">
+  <producedTypes>
+    <managerType typeId="8ae399e8-ca01-48fe-a970-f9e30b96d550" valueTypeId="477ddabf-5c92-4624-89aa-dbdfee209971"/>
+    <valueManagerType typeId="3d1924e7-c6b9-4448-ab92-74a61319348e" valueTypeId="6e900109-5932-4600-a020-eb86ec9b0f49"/>
+    <valueKeyType typeId="ac605f06-1d15-48e3-81da-b638cedf9fd6" valueTypeId="3c2d4fa6-259c-4a45-a9c6-d8a0feed721e"/>
+  </producedTypes>
+  <name>СвойстваИсправленийПередОбновлениемИБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свойства исправлений перед обновлением ИБ</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

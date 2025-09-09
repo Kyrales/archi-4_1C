@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68deecfd-7564-487f-aaa5-e3cbe122475d">
+  <producedTypes>
+    <refType typeId="e677d2a3-8f5f-4c80-a2d6-f0629ccc49df" valueTypeId="8690e7b6-2aa6-422f-b542-34febe3f6fa3"/>
+    <listType typeId="0cad354a-32b8-4d4a-b903-3c9127c4a391" valueTypeId="baa44e6c-161a-4fd2-80c3-6e13d0a2d5de"/>
+    <managerType typeId="ecc13237-36b9-4322-bbf7-10171d6c3157" valueTypeId="45168db6-1224-409f-9562-901b4a1f75f5"/>
+  </producedTypes>
+  <name>ВозможностьПередоверияМЧД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Возможность передоверия МЧД</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f280872c-7ab3-47fe-a171-2b0e273cf4e7">
+    <name>БезПередоверия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без передоверия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c6fda056-0949-4c8d-83bc-2091e0712674">
+    <name>ОднократноеПередоверие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Однократное передоверие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1dc9239f-197d-4497-a947-d03cca15b858">
+    <name>МногократноеПередоверие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Многократное передоверие</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

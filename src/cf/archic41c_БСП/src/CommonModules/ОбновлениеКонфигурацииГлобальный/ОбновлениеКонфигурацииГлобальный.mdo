@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72c78946-146e-44a2-a547-abf5229e3815">
+  <name>ОбновлениеКонфигурацииГлобальный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление конфигурации глобальный</value>
+  </synonym>
+  <global>true</global>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53718223-afc9-4260-b257-47d0ec3a39f9">
+  <producedTypes>
+    <managerType typeId="3f80884c-70a5-4471-be86-56ea2d6f73e6" valueTypeId="2ce17d3a-7ec5-4990-a056-b1b1e8d53fc3"/>
+    <valueManagerType typeId="e4954fac-270c-4d78-ab02-0d27095de848" valueTypeId="367e2f04-2622-498c-8145-b27c6d0c1cbc"/>
+    <valueKeyType typeId="b5f8cb14-d2af-4e28-bcdf-3793ce3815c6" valueTypeId="badcadf8-db17-42c4-845f-94c4962d995d"/>
+  </producedTypes>
+  <name>ИспользоватьОплатуСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать оплату сервиса</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="851118bb-7e22-4c3c-a050-51b89216df86">
+  <producedTypes>
+    <selectionType typeId="e60dabe4-123f-4889-8b3c-1d177326dba8" valueTypeId="1eb87c80-221a-4869-9ab4-cd5ba96f0a75"/>
+    <listType typeId="d57d23bd-4e46-483d-bf55-1ae0b0574cfb" valueTypeId="9cafc434-5888-4ca3-aa06-f9c43e82e04e"/>
+    <managerType typeId="26e853d2-94de-463f-9293-da8d64a2c11d" valueTypeId="122eeda7-d4ca-435a-8847-2e8dd06e2225"/>
+    <recordSetType typeId="2b592f87-3f24-4ff9-b959-d66cfbadc4ad" valueTypeId="c2e542e7-2189-4ab9-9d16-daca8bc45241"/>
+    <recordKeyType typeId="25538db5-e331-49ca-a63c-f3f32e0b338e" valueTypeId="3ec96af6-1dc0-4015-aea5-701c57c7ee87"/>
+    <recordType typeId="0d288627-7536-4693-aaaf-49fc68005869" valueTypeId="43259669-b27d-4cd0-887c-c5f8f555df3c"/>
+    <recordManagerType typeId="69819d03-6845-4a7d-ab74-1ec63c5a67e4" valueTypeId="1d23970d-7a90-4fe5-9f6b-2b3889764a27"/>
+  </producedTypes>
+  <name>КонтурСинхронизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контур синхронизации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.КонтурСинхронизации.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4575003b-10c6-4d8e-bc5e-c643f38b24d9">
+    <name>ИмяУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя узла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>125</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="b3fd4c7b-b7ae-40b9-bbe0-42fae0bc6bf5">
+    <name>ИмяУзлаКорреспондента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя узла корреспондента</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>125</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="e68e3408-ae45-4d3f-8cbf-e1f517cd4dec">
+    <name>СинхронизацияУдалена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Синхронизация удалена</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6252386c-865f-41cc-aef4-1d8bf7087798">
+    <name>ПоследнееОбновление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последнее обновление</value>
+    </synonym>
+    <comment>Время по Гринвичу</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9d256a1d-5a06-4716-9d83-c5877a5ffc14">
+    <name>Префикс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Префикс</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>2</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="63623218-8035-4ad9-b4db-a1f917c5641a">
+    <name>Зацикливание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зацикливание</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d58babbe-6f59-4027-86db-54343d11e1c8">
+    <name>УзелИнформационнойБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узел информационной базы</value>
+    </synonym>
+    <comment>АПК:1330 универсальный механизм</comment>
+    <type>
+      <types>ExchangePlanRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a4cc0476-99a7-4b61-a382-2a6bb8d2043e">
+    <name>КодУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код узла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8dbca9a8-97c0-4c95-b0a6-1c3f54e6fbab">
+    <name>КодУзлаКорреспондента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код узла корреспондента</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="4d23fa01-b9ef-419c-8806-e0b0fad14be0">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3eb4e1a4-8653-410f-ae73-b25c03348880">
+    <name>ЗацикливаниеСинхронизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зацикливание синхронизации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

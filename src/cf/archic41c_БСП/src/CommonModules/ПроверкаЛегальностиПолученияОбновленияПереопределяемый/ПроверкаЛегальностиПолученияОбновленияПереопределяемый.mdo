@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bab9810a-d08a-4484-a6d7-74e1c70a9bbc">
+  <name>ПроверкаЛегальностиПолученияОбновленияПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка легальности получения обновления переопределяемый</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

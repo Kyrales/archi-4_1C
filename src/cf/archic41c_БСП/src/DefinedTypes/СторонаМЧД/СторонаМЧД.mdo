@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ebcff6f-8709-46a2-b354-768e1d1415c5">
+  <producedTypes>
+    <containerType typeId="c14a0491-75b5-4af9-b0d0-bb698a5467a4" valueTypeId="5399623d-f946-43f9-b7bf-55ffba8ed98a"/>
+  </producedTypes>
+  <name>СторонаМЧД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сторона МЧД</value>
+  </synonym>
+  <type>
+    <types>CatalogRef._ДемоФизическиеЛица</types>
+    <types>CatalogRef._ДемоКонтрагенты</types>
+    <types>CatalogRef._ДемоОрганизации</types>
+  </type>
+</mdclass:DefinedType>

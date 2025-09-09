@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="565a1c4b-4293-4f41-9e2e-92a421506abf">
+  <producedTypes>
+    <objectType typeId="8d86fbcf-90ff-4326-905c-0392cf81c7cb" valueTypeId="8df4c86d-85a1-48f2-ad73-b17de8739c06"/>
+    <managerType typeId="8bd3c642-0b66-42ef-9e9d-9a993344f68b" valueTypeId="b659b5ef-43a8-4fc1-a6c4-90c11cb1c358"/>
+  </producedTypes>
+  <name>ПанельАдминистрированияБИП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Панель администрирования БИП</value>
+  </synonym>
+  <defaultForm>DataProcessor.ПанельАдминистрированияБИП.Form.Форма</defaultForm>
+  <forms uuid="c988cf4e-7b05-4bb9-b141-6a2b4dbe3b8e">
+    <name>ИнтернетПоддержкаИСервисы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интернет-поддержка и сервисы</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cdef949b-0bc6-4dfe-aac0-c056f1c2e922">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="8ac258f1-a724-457f-aaea-5ab9be140d57">
+    <name>ИнтернетПоддержкаИСервисы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интернет-поддержка и сервисы</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Интернет-сервисы и поддержка. Обновление версии программы. Загрузка классификаторов.</value>
+    </toolTip>
+  </commands>
+</mdclass:DataProcessor>

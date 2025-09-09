@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af60426c-48f1-45c5-87e7-cd70fd078bde">
+  <name>КонтрольНеразделенныхНаборовЗаписейПриЗаписиПолучениеВнешнихКомпонент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль неразделенных наборов записей при записи Получение внешних компонент</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.КэшДанныхВнешнихКомпонент</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.РаботаВМоделиСервисаБСП.КонтрольНеразделенныхНаборовЗаписейПриЗаписи</handler>
+</mdclass:EventSubscription>

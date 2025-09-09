@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05b2d3d5-503b-4e60-8264-d721cf3f04e1">
+  <producedTypes>
+    <managerType typeId="096e1469-19cb-4199-ac1d-6929e74fb298" valueTypeId="f22cd6da-6224-470f-a052-b569854504b0"/>
+    <valueManagerType typeId="95434169-4c1f-4238-bbe6-f60f2ec54506" valueTypeId="429dac16-e55c-4f7d-830a-7466b8a91b85"/>
+    <valueKeyType typeId="cba07c1b-9e6d-48f6-8932-5782a1057e19" valueTypeId="84046c8a-fd0a-45cb-9c77-9563550e2dcc"/>
+  </producedTypes>
+  <name>НачалоИнтервалаВремениПриоритетаОбработкиДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начало интервала времени приоритета обработки данных</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Time</dateFractions>
+    </dateQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

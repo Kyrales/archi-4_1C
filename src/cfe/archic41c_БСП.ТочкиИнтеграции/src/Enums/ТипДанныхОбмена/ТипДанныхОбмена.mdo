@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e93abce-3d59-4d13-9c34-9c165686438f">
+  <producedTypes>
+    <refType typeId="610a691d-9242-4bea-9f71-1b56d381e525" valueTypeId="af7c2121-ef8a-407b-a9db-ce48eeeae1c1"/>
+    <listType typeId="6fbd852a-b02a-41fd-b31a-66b41818583d" valueTypeId="a3a0c4fc-a6d9-4cc1-b526-deeba430adc4"/>
+    <managerType typeId="98e8a338-14c0-4e42-b6ee-9a5fe74d9b27" valueTypeId="d2f035c7-e9e5-4a03-87db-3cffb4af5f39"/>
+  </producedTypes>
+  <name>ТипДанныхОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип данных обмена</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a7e6f265-d1b4-4506-9301-a00f4f4292a5">
+    <name>XML</name>
+    <synonym>
+      <key>ru</key>
+      <value>XML</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3e27ae59-ddbf-4890-a15e-65d1d1ef5ace">
+    <name>JSON</name>
+    <synonym>
+      <key>ru</key>
+      <value>JSON</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fce676d9-ea96-4743-854a-0360288daba6">
+    <name>Excel</name>
+    <synonym>
+      <key>ru</key>
+      <value>Excel</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="94b75d88-eb92-4901-bd90-6a491a001d6f">
+    <name>CSV</name>
+    <synonym>
+      <key>ru</key>
+      <value>CSV</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="16c36c34-c494-47d8-836a-e12272d7ed0f">
+    <name>TXT</name>
+    <synonym>
+      <key>ru</key>
+      <value>TXT</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

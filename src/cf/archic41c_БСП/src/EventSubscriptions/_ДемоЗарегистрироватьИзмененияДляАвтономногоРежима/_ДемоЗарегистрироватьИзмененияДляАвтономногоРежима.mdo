@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="77e28187-51b1-41d7-ba1f-7c925a2a8c62">
+  <name>_ДемоЗарегистрироватьИзмененияДляАвтономногоРежима</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Зарегистрировать изменения для автономного режима</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.ВариантыОтчетов</types>
+    <types>CatalogObject.Пользователи</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule._ДемоОбменМобильныйКлиент.ЗарегистрироватьИзмененияДляАвтономногоРежимаПриЗаписи</handler>
+</mdclass:EventSubscription>

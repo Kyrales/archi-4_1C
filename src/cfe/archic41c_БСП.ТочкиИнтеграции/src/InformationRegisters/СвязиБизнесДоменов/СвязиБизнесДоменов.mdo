@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ed33ec5-7fc1-446d-b34d-4c5674765eab">
+  <producedTypes>
+    <selectionType typeId="c477835c-57b8-488f-a5b7-5e35e8591b2c" valueTypeId="f8a54693-d82f-444f-a4d1-1aaa2ade5273"/>
+    <listType typeId="f35a2404-dfd0-4ec5-a418-aae55730cc86" valueTypeId="e22d9550-6224-4d6a-9bde-4da7fcb2878c"/>
+    <managerType typeId="8b677a3a-6abe-4d55-ad11-91ebd3cf7591" valueTypeId="327b1f9f-a08f-4347-abb9-4d910894c1c7"/>
+    <recordSetType typeId="7a5c17f0-5f9d-4e0f-884e-54b4c02cf18f" valueTypeId="478532cb-efc2-42b4-9f6f-a5e9a1ca68f5"/>
+    <recordKeyType typeId="5888032f-283d-481c-82c9-c04e42d45165" valueTypeId="e170b026-7f4c-464c-b2fe-1068705ce3a3"/>
+    <recordType typeId="cd3d1862-12c2-4568-b70b-e2b6b603cc0e" valueTypeId="8c4ec90e-19c5-43cc-a4d2-4e40549ade3d"/>
+    <recordManagerType typeId="af4c538b-2231-44b9-878c-6a698883f451" valueTypeId="44e224fe-7075-4bf6-950e-9b87f9bfd19a"/>
+  </producedTypes>
+  <name>СвязиБизнесДоменов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связи бизнес-доменов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4ae2762d-478a-41a5-9cbf-3793dc2a69bd">
+    <name>Действия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действия</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ДействияПоАрхитектуре</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="663eab9f-7dc4-4c51-9985-ab461cb589bc">
+    <name>ОписаниеПотока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание потока</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="cce6f2b4-eb37-4ac6-8cdc-8b11bc96eca8">
+    <name>ОписаниеИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание изменения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="6adb3d20-7ab1-496f-9f62-b76e3e43b1c4">
+    <name>Приоритет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7d27a21f-4b12-453c-9d6f-2252eb1bb485">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Организация</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2d79ba05-a1ae-4456-a294-706b29cba0ae">
+    <name>Источник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БизнесДомены</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2f8df32e-b896-47dd-beba-fea9d363237e">
+    <name>Приемник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приемник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БизнесДомены</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

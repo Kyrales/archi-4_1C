@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5663ce2-587d-4255-b30e-6979c909cc05">
+  <producedTypes>
+    <objectType typeId="d29d903e-aeb7-4464-93ff-8009c191d0e2" valueTypeId="4a5ad07d-a423-46a7-ae65-cd401c69dcb0"/>
+    <managerType typeId="3e795548-b190-4e3e-a547-21e0b7e00ced" valueTypeId="625309f1-65ed-4349-97da-0ef0b1e09cd9"/>
+  </producedTypes>
+  <name>УничтожениеПерсональныхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уничтожение персональных данных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УничтожениеПерсональныхДанных.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="942b3e77-2a66-4879-972d-b5d25a706f9a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="49f67edf-49e7-4198-9f9a-7bddf0a89248">
+    <name>ФормаСозданияАктов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма создания актов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

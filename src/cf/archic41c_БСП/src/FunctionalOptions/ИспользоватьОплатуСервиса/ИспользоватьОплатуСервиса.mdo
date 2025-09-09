@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d02d640-a38d-4793-9138-c23fd502db4c">
+  <name>ИспользоватьОплатуСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать оплату сервиса</value>
+  </synonym>
+  <location>Constant.ИспользоватьОплатуСервиса</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.НастройкиОплатыСервиса</content>
+</mdclass:FunctionalOption>

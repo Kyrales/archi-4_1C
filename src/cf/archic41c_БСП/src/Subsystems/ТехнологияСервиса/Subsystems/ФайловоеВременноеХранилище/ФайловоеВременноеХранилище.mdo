@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="acce2091-66b3-49a1-90b1-13a5009b95f6">
+  <name>ФайловоеВременноеХранилище</name>
+  <synonym>
+    <key>ru</key>
+    <value>Файловое временное хранилище</value>
+  </synonym>
+  <content>CommonModule.ФайлыБТС</content>
+  <content>CommonModule.ФайлыБТСКлиент</content>
+  <content>CommonModule.ФайлыБТСКлиентСервер</content>
+  <content>Constant.КаталогОбменаФайламиВМоделиСервиса</content>
+  <content>Constant.КаталогОбменаФайламиВМоделиСервисаLinux</content>
+  <content>DataProcessor.ФайлыБТС</content>
+  <content>InformationRegister.ФайлыВременногоХранилища</content>
+  <content>ScheduledJob.УдалениеФайловВременногоХранилища</content>
+  <content>CommonModule.ФайлыБТСВызовСервера</content>
+  <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
+</mdclass:Subsystem>

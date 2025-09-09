@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Catalog.Удалить_ДемоОбщиеСведения.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister._ДемоОбщиеСведения.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Report._ДемоСтатусыЗаказовПокупателей.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor._ДемоУправлениеОтложеннымОбновлением.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.ОбновлениеВерсииИБ.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Document._ДемоЗаказПокупателя.StandardCommand.OpenList</commands>
+      <commands>Report._ДемоСтатусыЗаказовПокупателей.Command._ДемоСтатусыЗаказовПокупателей</commands>
+      <commands>DataProcessor.ОбновлениеВерсииИБ.Command.ВерсииПодсистемИнформационнойБазы</commands>
+      <commands>DataProcessor._ДемоУправлениеОтложеннымОбновлением.Command._ДемоУправлениеОтложеннымОбновлением</commands>
+      <commands>Catalog.Удалить_ДемоОбщиеСведения.StandardCommand.OpenList</commands>
+      <commands>InformationRegister._ДемоОбщиеСведения.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="587103e1-deab-4185-849c-aee431cc31ff">
+  <name>_ДемоОбменМобильныйКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Обмен мобильный клиент</value>
+  </synonym>
+</mdclass:Role>

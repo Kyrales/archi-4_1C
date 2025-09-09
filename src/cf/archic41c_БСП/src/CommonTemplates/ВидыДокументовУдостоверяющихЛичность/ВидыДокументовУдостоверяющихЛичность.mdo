@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1682d528-87bf-48c5-acf9-57ab654a615a">
+  <name>ВидыДокументовУдостоверяющихЛичность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды документов удостоверяющих личность</value>
+  </synonym>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>

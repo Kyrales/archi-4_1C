@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e87b8f58-aac2-4c34-881d-6de28756155e">
+  <producedTypes>
+    <selectionType typeId="6506643d-1c5d-4461-8c27-96bde8251b06" valueTypeId="8a234013-8096-4924-8564-8afc2e01ab50"/>
+    <listType typeId="478d7f00-2c7c-4b09-b385-e493e3d463d4" valueTypeId="6bc2935b-438f-449d-a07e-8e2fbb2231e7"/>
+    <managerType typeId="5f718c78-b91e-4deb-a78b-46158e5ea014" valueTypeId="715448d6-eada-47b2-93fd-6943a7b883d6"/>
+    <recordSetType typeId="6dbd7d8a-e332-4d3e-be8a-f522d6449de0" valueTypeId="b0dc07a7-b8b8-4458-821e-0333b0ca016c"/>
+    <recordKeyType typeId="72b53257-b476-4648-a255-c36cae6f14f9" valueTypeId="5cd362c9-2bed-427b-8497-3adf2a7e9f01"/>
+    <recordType typeId="8963ed77-29af-4ec2-825d-bdc8ede95b5f" valueTypeId="33b68ee0-7d77-4587-a0d8-d2bb565d2416"/>
+    <recordManagerType typeId="420f389e-cfbb-4ab7-bd9c-4278e0eb6ed4" valueTypeId="b5f1f0b9-d334-4d24-b73c-9d08eb7a986a"/>
+  </producedTypes>
+  <name>ВидыПриложенийОбластейДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды приложений областей данных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Вид приложения области данных</value>
+  </recordPresentation>
+  <resources uuid="3e0ba82f-cd83-479a-99e2-f222fbc6f0be">
+    <name>ИмяВидаПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя вида приложения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bc703836-e86a-4349-898f-a04a25d51a93">
+    <name>ПредставлениеВидаПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление вида приложения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a4d537e4-b5e8-47af-bb5c-22c320dbbd0e">
+    <name>ДатаОжиданияУстановкиВидаПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата ожидания установки вида приложения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7da8a5dd-18fd-4e8f-a4bc-4bf4f30c9c3e">
+    <name>ИмяВидаПриложенияПользовательское</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя вида приложения пользовательское</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e79e3ef5-c79e-4716-8e8e-3e2116aa02cd">
+    <name>ВыполняетсяПереход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполняется переход</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d6331a72-d6b0-49cf-808f-f3dc104d2f3a">
+    <name>ИсходноеИмяВидаПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходное имя вида приложения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

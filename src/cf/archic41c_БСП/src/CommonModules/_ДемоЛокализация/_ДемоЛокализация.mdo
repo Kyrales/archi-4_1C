@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20fdda89-2d33-4d65-8de4-f206bf14d0bd">
+  <name>_ДемоЛокализация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо локализация</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30be8d71-a9dd-4dd3-8fb4-ea0c8de86358">
+  <name>ИспользоватьСценарииВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать сценарии в модели сервиса</value>
+  </synonym>
+  <location>InformationRegister.ОбщиеНастройкиУзловИнформационныхБаз.Resource.ИспользоватьСценарииВМоделиСервиса</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.СценарииСинхронизации</content>
+</mdclass:FunctionalOption>

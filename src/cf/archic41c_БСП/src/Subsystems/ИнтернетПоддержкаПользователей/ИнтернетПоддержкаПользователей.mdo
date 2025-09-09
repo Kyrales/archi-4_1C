@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ff3ec4c-ae39-4f67-8e61-f5405c67c3bd">
+  <name>ИнтернетПоддержкаПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интернет-поддержка пользователей</value>
+  </synonym>
+  <subsystems>БазоваяФункциональностьБИП</subsystems>
+  <subsystems>НастройкиПрограммы</subsystems>
+  <subsystems>ПодборФИО</subsystems>
+  <subsystems>ПолучениеВнешнихКомпонент</subsystems>
+  <subsystems>ПолучениеОбновленийПрограммы</subsystems>
+  <subsystems>РаботаВМоделиСервиса</subsystems>
+  <subsystems>РаботаСКлассификаторами</subsystems>
+  <subsystems>СообщенияВСлужбуТехническойПоддержки</subsystems>
+</mdclass:Subsystem>

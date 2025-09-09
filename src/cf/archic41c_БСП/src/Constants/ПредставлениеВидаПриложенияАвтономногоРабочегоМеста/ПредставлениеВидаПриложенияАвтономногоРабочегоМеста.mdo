@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89b77dba-bc93-4544-a548-ed6907c84f7b">
+  <producedTypes>
+    <managerType typeId="b94275e2-b6ee-4731-86e1-e950a6a9b38b" valueTypeId="1941179a-eae4-482d-8420-608658e8785e"/>
+    <valueManagerType typeId="90025877-db7c-4d17-bc2f-cf965b79e3cb" valueTypeId="a49d41a6-0a7b-4775-a0c5-6f98e298385d"/>
+    <valueKeyType typeId="def87f16-84ee-4009-a04f-06cee3b09d6c" valueTypeId="b01042c3-7ac6-4b81-a585-b72e9d6e9e44"/>
+  </producedTypes>
+  <name>ПредставлениеВидаПриложенияАвтономногоРабочегоМеста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Представление вида приложения автономного рабочего места</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>150</length>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

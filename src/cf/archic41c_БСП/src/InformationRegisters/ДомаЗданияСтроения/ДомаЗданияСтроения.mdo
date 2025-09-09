@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e520fbbb-3521-4707-bbe7-c8ead04fb2dc">
+  <producedTypes>
+    <selectionType typeId="229197cf-1a4a-46ee-80f1-554f1a977a01" valueTypeId="b08c8075-0de1-4dde-9079-9852a7f64fa5"/>
+    <listType typeId="5a6cbc3c-89f4-428c-95e0-2643418735fe" valueTypeId="5fd872a6-f8d7-4f4a-b5ea-5b79f4a16aab"/>
+    <managerType typeId="d06069e7-7b4d-4ea9-a617-9d8679340c96" valueTypeId="9e0a9cec-0a90-4ca7-9fa6-3a74f406db9d"/>
+    <recordSetType typeId="8e68ab91-70c3-42bf-a038-6c67ac2b73f3" valueTypeId="7d43f1cd-e76c-43d9-8f99-e4f68de36d0d"/>
+    <recordKeyType typeId="c93d7c8a-5e23-499a-903e-dd201067b885" valueTypeId="1e06b09e-d572-47e4-a31e-e693d9467e05"/>
+    <recordType typeId="a657406e-adf0-4e8f-9d0f-ab4ebb446869" valueTypeId="667befd2-34d0-4eb1-bb92-e027a5416ee4"/>
+    <recordManagerType typeId="405f0362-d820-4cca-9a68-8757a1bcc506" valueTypeId="1950c6bf-49d0-4d23-ab6a-9b6de30c3a3b"/>
+  </producedTypes>
+  <name>ДомаЗданияСтроения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дома здания строения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="a87faa63-4e1c-440c-b852-0e4e1485a047">
+    <name>Строения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строения</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="36244ad9-5b3a-431e-9dbf-b05ee9da1188">
+    <name>АдресныйОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адресный объект</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6cf7fd67-e426-4fe3-a49d-fbcfae5fb52d">
+    <name>КодСубъектаРФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код субъекта РФ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="92c4d60b-22df-4fef-a5b9-a97bc63b4858">
+    <name>ДополнительныеАдресныеСведения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные адресные сведения</value>
+    </synonym>
+    <comment>Служебный идентификатор комбинации кодов ОКАТО и т.п.</comment>
+    <type>
+      <types>UUID</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Служебный идентификатор комбинации кодов ОКАТО, ОКТМО и т.п.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

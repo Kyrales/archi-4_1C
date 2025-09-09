@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49bcd9e6-f312-4bb6-959a-242b73907591">
+  <name>ЗащитаПерсональныхДанныхУничтожениеПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Защита персональных данных уничтожение повт исп</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

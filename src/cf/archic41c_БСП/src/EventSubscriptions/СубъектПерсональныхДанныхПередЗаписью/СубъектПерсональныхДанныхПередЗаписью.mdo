@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f92f8c8-4d02-41a0-858f-e521f978df9f">
+  <name>СубъектПерсональныхДанныхПередЗаписью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Субъект персональных данных перед записью</value>
+  </synonym>
+  <source>
+    <types>DefinedType.СубъектПерсональныхДанныхОбъект</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ЗащитаПерсональныхДанных.СубъектПерсональныхДанныхПередЗаписью</handler>
+</mdclass:EventSubscription>

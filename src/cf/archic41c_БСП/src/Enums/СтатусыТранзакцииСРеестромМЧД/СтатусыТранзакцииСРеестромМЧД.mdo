@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43b8af02-21f6-41c0-8e6d-758411f5188e">
+  <producedTypes>
+    <refType typeId="19712459-3aba-4948-9bdf-ea69b624caf5" valueTypeId="8c8e441a-bcd1-41ab-a808-8a6ba3a67732"/>
+    <listType typeId="2484f171-eb0b-41d8-bfbd-b4e6ea3a573f" valueTypeId="52f45536-7af2-4faa-ac00-5ae258b9c507"/>
+    <managerType typeId="3869a204-2e6a-4950-a452-d9c8bb75cd5a" valueTypeId="ee8faff8-4c3d-4b08-ae83-3f1136f6070c"/>
+  </producedTypes>
+  <name>СтатусыТранзакцииСРеестромМЧД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы транзакции с реестром МЧД</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9952a9cc-6d02-4d84-9bca-76c67c6af29a">
+    <name>Успешно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Успешно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3bd83ceb-9f87-49e2-9e3e-1c43efeaba9b">
+    <name>ОжидаетОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидает обработки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="35c9e0e3-e454-4b5e-a39d-8a5f396ab841">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

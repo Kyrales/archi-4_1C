@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d1e5608-0462-4069-ad7b-1c4b3bc1a256">
+  <producedTypes>
+    <managerType typeId="21bd88f2-d8bc-4caf-b165-7e287f942132" valueTypeId="45c0f85c-b373-487d-8983-89827e6f3a9c"/>
+    <valueManagerType typeId="2502a87d-0196-47a9-bd78-b6a42d393ab3" valueTypeId="b2f5690a-1b75-499e-abd1-237ce6e2a0ee"/>
+    <valueKeyType typeId="e0cc7fe9-c348-4241-970b-04597fc24cac" valueTypeId="54e10767-5c95-49a8-a8d1-7acb8d208207"/>
+  </producedTypes>
+  <name>КоличествоМесяцевМинимальногоПериодаРассчитанныхИтогов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество месяцев минимального периода рассчитанных итогов</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>2</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:StringValue">
+    <value>0</value>
+  </minValue>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

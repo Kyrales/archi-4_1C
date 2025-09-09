@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0c54cdd-32ab-4c83-a0cd-454139416a58">
+  <producedTypes>
+    <refType typeId="09a8fb83-571d-43ef-abdb-d158803d8063" valueTypeId="81d92403-4ed6-4bdb-8c1e-1d5069675156"/>
+    <listType typeId="0db8ced8-3ab8-452c-9a86-3e07528e3b61" valueTypeId="d2ca5081-6891-4392-8b42-fccb2866bc12"/>
+    <managerType typeId="bb09d633-3cc2-4240-877c-993c7d9ab1ca" valueTypeId="e0183abe-61ae-4bdc-9486-1026726d5662"/>
+  </producedTypes>
+  <name>СтатусыМЧД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы МЧД</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="85488f67-4b7b-4803-bd21-664a4409cee6">
+    <name>Черновик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="79d80ade-cdc1-4445-8bfd-f27dd3627083">
+    <name>Действует</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2b56997c-c791-4afe-942c-526421242b97">
+    <name>НеДействует</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не действует</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

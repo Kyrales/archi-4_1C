@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ee7cccc-4e52-464c-9c20-5c0dfbed7e5f">
+  <name>ТранспортСообщенийОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Транспорт сообщений обмена</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>DataProcessor.ТранспортСообщенийОбменаEMAIL</content>
+  <content>DataProcessor.ТранспортСообщенийОбменаFILE</content>
+  <content>DataProcessor.ТранспортСообщенийОбменаFTP</content>
+  <content>CommonModule.ТранспортСообщенийОбмена</content>
+  <content>CommonModule.ТранспортСообщенийОбменаПовтИсп</content>
+  <content>CommonModule.ТранспортСообщенийОбменаПереопределяемый</content>
+  <content>CommonModule.ТранспортСообщенийОбменаКлиент</content>
+  <content>CommonModule.ТранспортСообщенийОбменаВызовСервера</content>
+  <content>CommonModule.ТранспортСообщенийОбменаКлиентСервер</content>
+  <content>DataProcessor.ТранспортСообщенийОбменаWS</content>
+  <content>DataProcessor.ТранспортСообщенийОбменаПассивныйРежим</content>
+  <content>DataProcessor.ТранспортСообщенийОбменаCOM</content>
+  <content>DataProcessor.ТранспортСообщенийОбменаSM</content>
+  <content>DataProcessor.ТранспортСообщенийОбменаHTTP</content>
+  <content>HTTPService.exchange_dsl_1_0_0_1</content>
+  <content>CommonCommand.НастройкиПодключения</content>
+  <content>CommonModule.ОбменДаннымиВебСервис</content>
+  <content>CommonModule.ОбменДаннымиОперацииВебСервисов</content>
+  <content>WebService.Exchange</content>
+  <content>WebService.Exchange_2_0_1_6</content>
+  <content>WebService.Exchange_3_0_1_1</content>
+  <content>WebService.Exchange_3_0_2_1</content>
+  <content>WebService.Exchange_3_0_2_2</content>
+  <content>Catalog.НастройкиТранспортаСообщенийОбмена</content>
+  <content>CommonPicture.GooggleDrive</content>
+  <content>CommonPicture.ЯндексДиск</content>
+  <content>CommonPicture.ТранспортFTP</content>
+  <content>CommonPicture.ТранспортFresh</content>
+  <content>CommonPicture.ТранспортCOM</content>
+  <content>CommonPicture.ТранспортWS</content>
+  <content>CommonPicture.ТранспортHTTP</content>
+  <content>CommonPicture.ТранспортПассивныйРежим</content>
+  <content>CommonPicture.ТранспортПередачаДанных</content>
+  <content>DataProcessor.ТранспортСообщенийОбменаGoogleDrive</content>
+  <content>DataProcessor.ТранспортСообщенийОбменаЯндексДиск</content>
+  <content>CommonPicture.ТранспортЭлектроннаяПочта</content>
+  <content>CommonPicture.ТранспортПоУмолчанию</content>
+  <content>CommonPicture.ТранспортESB1C</content>
+  <content>DataProcessor.ТранспортСообщенийОбменаESB1C</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы.Subsystem.ОбменДанными</parentSubsystem>
+</mdclass:Subsystem>

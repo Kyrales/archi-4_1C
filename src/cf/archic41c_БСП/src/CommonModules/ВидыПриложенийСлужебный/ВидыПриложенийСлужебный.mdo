@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="359a9538-4425-4a9e-a98e-7772e0c22d46">
+  <name>ВидыПриложенийСлужебный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды приложений служебный</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

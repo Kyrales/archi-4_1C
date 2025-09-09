@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f8130d4-12b2-4a2b-8f75-9ca8289624c8">
+  <producedTypes>
+    <selectionType typeId="651d9450-71b1-4e63-9ebe-2bde7f2e76ba" valueTypeId="368065ea-46be-4258-8cec-a95b3544b6a0"/>
+    <listType typeId="58dc5cc6-8953-4027-932c-8745b94cabc4" valueTypeId="79375300-31c9-41a4-b1ca-6b376f797458"/>
+    <managerType typeId="82e52c05-18e0-4e3c-93c4-eea5b234e4b8" valueTypeId="735891f6-98d5-455b-a92a-c7395712b376"/>
+    <recordSetType typeId="d83ba0d9-b14b-4c58-8974-16c0a9b7843f" valueTypeId="23bfcc9f-6da8-4efc-a349-59072e0ba8c9"/>
+    <recordKeyType typeId="5d74a170-658c-4bf5-af76-e062d443367d" valueTypeId="70c121b2-9378-4102-a97a-ecdac1589e26"/>
+    <recordType typeId="828e6aad-0205-4879-872a-4ee172721581" valueTypeId="6db33d62-3954-44a1-b57c-8b5be5243863"/>
+    <recordManagerType typeId="b776ca4f-b867-4f9f-b38f-15f8cbe1322c" valueTypeId="c88b705b-ee0b-4b15-9693-2ca1d23d4769"/>
+  </producedTypes>
+  <name>СрокиХраненияПерсональныхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сроки хранения персональных данных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="02877723-66fb-4984-b760-511d1c6c29f0">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Организация</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ec0bc645-5abf-423f-a517-2aa7adf9044c">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="d8430167-5d4e-4603-9797-36781210cdff">
+    <name>СрокХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок хранения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c4b3f94d-6f5f-457b-a425-56c0f745c75f">
+    <name>Субъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Субъект</value>
+    </synonym>
+    <type>
+      <types>DefinedType.СубъектПерсональныхДанных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

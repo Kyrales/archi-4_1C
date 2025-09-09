@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7bc582b2-0e9c-4407-acd5-e9b3d82e3d03">
+  <producedTypes>
+    <selectionType typeId="209a9fb4-8288-4b42-aa18-62b27647c449" valueTypeId="150feefb-764a-49a6-837b-ff6d9fc860e2"/>
+    <listType typeId="4e129200-60d3-41f7-a66c-1de650ed0968" valueTypeId="b220aa17-ade6-45b8-81e3-889b0e403c45"/>
+    <managerType typeId="af3ee6c7-04e1-42e2-a323-23302a4ca991" valueTypeId="29933b6f-63dc-40a1-a2bd-33192155690d"/>
+    <recordSetType typeId="2d3aa2d8-2309-4ea9-937b-9bf93198e0e5" valueTypeId="12a4378d-20db-40b8-9bf5-64511cc593b5"/>
+    <recordKeyType typeId="5272b67b-e6f5-4526-96c4-6d1a2fc93198" valueTypeId="ff93362e-23f3-4fad-b7cd-a164cc4ccfcf"/>
+    <recordType typeId="4c1ccc76-c689-47d7-92c3-efacba55813c" valueTypeId="7ace104d-aab4-477b-adf0-b0db7deb231c"/>
+    <recordManagerType typeId="432676f2-6ea5-4738-89d3-56ea5fe24700" valueTypeId="c521fd2c-1fe8-4d03-b9d6-830692bf00d3"/>
+  </producedTypes>
+  <name>УдалитьСводныеПриложенияПорядокВыгрузкиОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Не используется) Порядок выгрузки объектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2df1f980-77e3-4393-a2c5-28f6926f6864">
+    <name>ПорядокВыгрузкиОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок выгрузки объектов</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="01ea41dc-66ee-4598-8ea2-fb127f1e89c5">
+    <name>ХэшСхемыКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хэш схемы конфигурации</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3001de6-272f-444e-a8db-ec8cc3a670a2">
+  <name>Регистрация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ОбменДаннымиРегистрацияСервер</content>
+  <content>CommonModule.ОбменДаннымиРегистрацияПовтИсп</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы.Subsystem.ОбменДанными</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3720a0f-cf95-4acb-89dc-c4e6e38f72ca">
+  <producedTypes>
+    <objectType typeId="9fc20f39-1412-4a84-ae45-fd5a978abdca" valueTypeId="2ac17ea0-69cd-453d-91a2-5b35b4ad55ea"/>
+    <managerType typeId="059d6923-42e9-4f06-89fe-bfb7e15670d9" valueTypeId="c58562e5-80c2-41a1-bb72-4ef35fa46c3d"/>
+  </producedTypes>
+  <name>СертификатыЭлектроннойПодписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сертификаты электронной подписи</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.СертификатыЭлектроннойПодписи.Template.Макет</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="fb26953e-1aa3-4f69-8b9b-ad99e3431e12">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

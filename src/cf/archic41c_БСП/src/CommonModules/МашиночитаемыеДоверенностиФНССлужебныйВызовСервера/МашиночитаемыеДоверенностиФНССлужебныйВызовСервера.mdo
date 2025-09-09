@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b868a9d-984f-483a-9739-c1a73c05602f">
+  <name>МашиночитаемыеДоверенностиФНССлужебныйВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Машиночитаемые доверенности ФНС служебный вызов сервера</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

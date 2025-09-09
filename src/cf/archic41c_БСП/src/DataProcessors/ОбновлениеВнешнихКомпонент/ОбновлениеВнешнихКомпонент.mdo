@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3c8f771-c1e0-48fe-99bd-979411600629">
+  <producedTypes>
+    <objectType typeId="075b70d4-b8f5-489a-9ef4-4680dd0f3c71" valueTypeId="acff854e-484e-4b6f-ae25-a532f6b28a70"/>
+    <managerType typeId="3aee65a3-30da-4a18-9d3b-3538232ebf48" valueTypeId="8e63ee67-d315-4f22-9ed0-43b704665f4c"/>
+  </producedTypes>
+  <name>ОбновлениеВнешнихКомпонент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление внешних компонент</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбновлениеВнешнихКомпонент.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="a5d37181-dda2-4132-af2a-3b35425409a9">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

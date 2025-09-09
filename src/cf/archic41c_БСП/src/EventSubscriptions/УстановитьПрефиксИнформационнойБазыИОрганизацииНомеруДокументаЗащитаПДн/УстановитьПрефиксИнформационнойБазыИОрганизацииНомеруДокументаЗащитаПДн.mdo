@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96cd8b90-5cf3-416c-b3a2-1f62e158b37e">
+  <name>УстановитьПрефиксИнформационнойБазыИОрганизацииНомеруДокументаЗащитаПДн</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить префикс информационной базы и организации номеру документа &quot;Защита персональных данных&quot;</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.АктОбУничтоженииПерсональныхДанных</types>
+    <types>DocumentObject.ОтзывСогласияНаОбработкуПерсональныхДанных</types>
+    <types>DocumentObject.СогласиеНаОбработкуПерсональныхДанных</types>
+  </source>
+  <event>OnSetNewNumber</event>
+  <handler>CommonModule.ЗащитаПерсональныхДанных.УстановитьПрефиксИнформационнойБазыИОрганизации</handler>
+</mdclass:EventSubscription>

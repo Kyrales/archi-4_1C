@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8759ffe-4f6d-48f2-8ae6-51911c5baf4b">
+  <name>КонтрольНеразделенныхОбъектовПриЗаписиБСД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль неразделенных объектов при записи БСД</value>
+  </synonym>
+  <source>
+    <types>ConstantValueManager.СинхронизироватьДанныеСПриложениемВИнтернетеПриЗавершенииРаботыПрограммы</types>
+    <types>ConstantValueManager.ИспользоватьСинхронизациюДанныхВМоделиСервиса</types>
+    <types>ConstantValueManager.СинхронизироватьДанныеСПриложениемВИнтернетеПриНачалеРаботыПрограммы</types>
+    <types>ConstantValueManager.ИспользоватьСинхронизациюДанных</types>
+    <types>ConstantValueManager.КаталогСообщенийОбменаДаннымиДляLinux</types>
+    <types>ConstantValueManager.КаталогСообщенийОбменаДаннымиДляWindows</types>
+    <types>ConstantValueManager.ИспользоватьСинхронизациюДанныхВЛокальномРежиме</types>
+    <types>ConstantValueManager.ИспользоватьОценкуПроизводительностиСинхронизацииДанных</types>
+    <types>ConstantValueManager.ПовторитьЗагрузкуСообщенияОбменаДаннымиПередЗапуском</types>
+    <types>ConstantValueManager.СообщениеОбменаДаннымиИзГлавногоУзла</types>
+    <types>ConstantValueManager.ИспользоватьСинхронизациюДанныхВМоделиСервисаСПриложениемВИнтернете</types>
+    <types>ConstantValueManager.ИспользоватьАвтономнуюРаботуВМоделиСервиса</types>
+    <types>ConstantValueManager.ЭтоАвтономноеРабочееМесто</types>
+    <types>ConstantValueManager.ИспользоватьОптимизированнуюЗаписьСозданияАвтономногоРабочегоМеста</types>
+    <types>ConstantValueManager.ИспользоватьСинхронизациюДанныхВМоделиСервисаСЛокальнойПрограммой</types>
+    <types>ConstantValueManager.НастройкаПодчиненногоУзлаРИБЗавершена</types>
+    <types>ConstantValueManager.ЗагрузитьРасширенияИзменяющиеСтруктуруДанных</types>
+    <types>ConstantValueManager.ЗагрузитьСообщениеОбменаДанными</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.РаботаВМоделиСервисаБСП.КонтрольНеразделенныхОбъектовПриЗаписи</handler>
+</mdclass:EventSubscription>

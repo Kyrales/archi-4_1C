@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19ea515f-65f7-4ed9-812b-c97b92e2498f">
+  <name>ПомощникПереходаНаИнтернетВнутренняяПубликация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помощник перехода на Интернет (внутренняя публикация)</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

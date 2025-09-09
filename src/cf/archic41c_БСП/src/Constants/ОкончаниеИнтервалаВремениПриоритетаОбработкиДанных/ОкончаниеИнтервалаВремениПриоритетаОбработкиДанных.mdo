@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9db40da-989b-48c4-9742-2889e2eee670">
+  <producedTypes>
+    <managerType typeId="29302578-08f4-454f-ade2-97be8ef171f7" valueTypeId="05eb2da0-220a-400f-b234-68cc270758c3"/>
+    <valueManagerType typeId="17b8f8e3-1abf-41f7-8697-2af90431ded1" valueTypeId="158035b0-aeaa-4e27-9773-080e8d786f61"/>
+    <valueKeyType typeId="0aa9d590-55da-41be-b526-572b741da6c2" valueTypeId="1472457e-80c9-40c6-9b12-638cf3fd3db1"/>
+  </producedTypes>
+  <name>ОкончаниеИнтервалаВремениПриоритетаОбработкиДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Окончание интервала времени приоритета обработки данных</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Time</dateFractions>
+    </dateQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

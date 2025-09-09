@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1a56141-f3bd-4075-848b-41c00a81e7a3">
+  <name>ИспользоватьСервисМобильнойПодписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать сервис мобильной подписи</value>
+  </synonym>
+  <location>Constant.ИспользоватьСервисМобильнойПодписи</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44b4e355-8c05-4c1d-ba4c-51578fab3d38">
+  <name>НастройкиПрограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки программы</value>
+  </synonym>
+  <content>CommonModule.НастройкиПрограммыБИПКлиент</content>
+  <content>CommonModule.НастройкиПрограммыБИППереопределяемый</content>
+  <content>DataProcessor.ПанельАдминистрированияБИП</content>
+  <parentSubsystem>Subsystem.ИнтернетПоддержкаПользователей</parentSubsystem>
+</mdclass:Subsystem>

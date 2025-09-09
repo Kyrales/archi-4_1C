@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="027ae688-4b83-4277-8dd2-4f90d443cbf6">
+  <producedTypes>
+    <managerType typeId="d3c4ceb3-717e-4447-b7bf-c3c85493c952" valueTypeId="e93ecaf3-6f98-41bd-a578-453618c7080b"/>
+    <valueManagerType typeId="4905760d-8d86-44a3-89bf-5a400d79ffa0" valueTypeId="862896e8-e200-4221-847a-33655098cf78"/>
+    <valueKeyType typeId="86621872-8781-4d57-9aea-92eba5c2d0b4" valueTypeId="b646b361-2358-4f12-8707-118f8b8dc7a6"/>
+  </producedTypes>
+  <name>УстанавливатьПриоритетОбработкиДанныхВУказанномИнтервалеВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Устанавливать приоритет обработки данных в указанном интервале времени</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

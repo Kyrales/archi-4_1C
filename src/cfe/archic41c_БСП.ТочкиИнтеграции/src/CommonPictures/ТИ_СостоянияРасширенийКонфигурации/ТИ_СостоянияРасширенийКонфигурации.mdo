@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f54c970a-6b52-44b5-904b-48b1db9f50db">
+  <name>ТИ_СостоянияРасширенийКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния расширений конфигурации  (ТИ)</value>
+  </synonym>
+</mdclass:CommonPicture>

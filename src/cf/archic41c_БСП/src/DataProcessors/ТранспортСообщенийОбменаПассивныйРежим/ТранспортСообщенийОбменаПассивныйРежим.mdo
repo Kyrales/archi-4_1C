@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8de3b943-ff47-4646-b76d-03f534771f69">
+  <producedTypes>
+    <objectType typeId="a7b4d706-f408-417b-8e4a-7f705af9ef09" valueTypeId="5e5a3565-40a7-41d5-8e33-501d4b5ebb9a"/>
+    <managerType typeId="166a9452-6a12-4c46-9060-f280652837e1" valueTypeId="237b8e53-ffcd-4bd0-b50f-a5fee37ea054"/>
+  </producedTypes>
+  <name>ТранспортСообщенийОбменаПассивныйРежим</name>
+  <synonym>
+    <key>ru</key>
+    <value>Транспорт сообщений обмена пассивный режим</value>
+  </synonym>
+  <defaultForm>DataProcessor.ТранспортСообщенийОбменаПассивныйРежим.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="c93c9176-3466-4b26-9e8f-47490188d981">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3ca53b9b-293d-4706-b9d6-b4a7f8b3fc6b">
+    <name>ФормаНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

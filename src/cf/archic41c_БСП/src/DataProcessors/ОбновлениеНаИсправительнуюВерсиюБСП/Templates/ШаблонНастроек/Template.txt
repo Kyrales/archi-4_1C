@@ -1,0 +1,26 @@
+<Settings xmlns="http://v8.1c.ru/8.3/config/merge/settings" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" platformVersion="8.3.11">
+	<MainConfiguration>
+		<Name/>
+		<Version/>
+		<Vendor/>
+	</MainConfiguration>
+	<SecondConfiguration>
+		<Name>БиблиотекаСтандартныхПодсистем</Name>
+		<Version/>
+		<Vendor>Фирма "1С"</Vendor>
+	</SecondConfiguration>
+	<OldVendorConfiguration>
+		<Name>БиблиотекаСтандартныхПодсистем</Name>
+		<Version/>
+		<Vendor>Фирма "1С"</Vendor>
+	</OldVendorConfiguration>
+	<Parameters>
+		<AllowMainConfigurationObjectDeletion>true</AllowMainConfigurationObjectDeletion>
+		<CopyObjectsMode>false</CopyObjectsMode>
+	</Parameters>
+	<Objects>
+		<Configuration>
+			<MergeRule>DoNotMerge</MergeRule>
+		</Configuration>
+	</Objects>
+</Settings>

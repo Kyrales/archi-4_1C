@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="535c0992-8b39-48df-a820-e524878ae89b">
+  <producedTypes>
+    <refType typeId="d791db8c-4022-4896-af0a-5de0f0b41cc1" valueTypeId="e5027adb-e74b-44ad-9d2c-9f1de54dfe93"/>
+    <listType typeId="450c1712-e598-4f41-baa9-2b67698e532e" valueTypeId="5a4b3783-769d-42b4-bb5d-36a9c8578dad"/>
+    <managerType typeId="1a3eadb6-0447-4079-be93-5f48325da680" valueTypeId="f74d04da-0d6e-4aaa-9e4f-465a79c1702e"/>
+  </producedTypes>
+  <name>АрхитектурыРаботыИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Архитектуры работы ИС</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1156ab5e-9554-47ff-a51f-9d80ef6d9cf7">
+    <name>Приложение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приложение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2d9bb580-ef6f-4144-a377-7f46a0ff74d6">
+    <name>ВебСервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Веб-сервер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="00b2f4c0-0402-45cb-9c77-3c062dcce6dd">
+    <name>ФайловыйСервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файловый сервер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1c0b2db5-52c5-4ecb-92d4-75df42afbc79">
+    <name>СерверБазДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер баз данных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4549e559-661d-4352-a6d6-677878dd2182">
+    <name>КонсольноеПриложение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Консольное приложение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3eba2312-48e7-4224-96d2-d296fabb17bb">
+    <name>МобильноеПриложение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мобильное приложение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f32c4faf-7e8f-412c-b6c2-35d41d6c032e">
+    <name>ВнешнийСервис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешний сервис</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="95b0c291-9f87-42e1-8fe3-3d190b743055">
+    <name>ИнтеграционнаяШина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интеграционная шина</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e4ca20f5-510c-4e17-a421-27c1e64c3aec">
+    <name>БизнесДомен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бизнес-домен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

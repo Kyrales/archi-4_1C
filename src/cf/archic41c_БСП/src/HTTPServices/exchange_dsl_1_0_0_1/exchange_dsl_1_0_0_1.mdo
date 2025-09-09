@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c09df096-f9cc-4b2f-a44e-69147339dc8c">
+  <name>exchange_dsl_1_0_0_1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Exchange DSL 1.0.0.1</value>
+  </synonym>
+  <rootURL>exchange_dsl_1_0_0_1</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="aa4e4f39-3080-4365-89aa-00b030e26eec">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <template>/version</template>
+    <methods uuid="84c1ba1c-e5d6-46ec-98a3-589499162e67">
+      <name>get</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get</value>
+      </synonym>
+      <handler>ПолучитьВерсию_GET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="ae910da8-b007-42bb-b41b-633dda961a0d">
+    <name>ПараметрыИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры ИБ</value>
+    </synonym>
+    <template>/{Версия}/GetIBParameters</template>
+    <methods uuid="f6cece0a-e20d-4c2a-a2f3-f25212b0d672">
+      <name>get</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get</value>
+      </synonym>
+      <handler>ПолучитьПараметрыИБ_GET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="8c1d82ad-9c7f-4556-9e53-c13341cc8206">
+    <name>СоздатьУзелОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать узел обмена</value>
+    </synonym>
+    <template>/{Версия}/CreateExchangeNode</template>
+    <methods uuid="28027dd1-2ce9-4b33-88e9-83588f939f18">
+      <name>post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>СоздатьУзелОбмена_POST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="2df51e39-a084-425c-8454-daa35b592c80">
+    <name>ПоместитьФайлДляСопоставления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поместить файл для сопоставления</value>
+    </synonym>
+    <template>/{Версия}/PutMessageForDataMatching</template>
+    <methods uuid="269af6e0-193a-45a5-b5b9-cc886c617db0">
+      <name>post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПоместитьФайлДляСопоставления_POST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="c93ebe3e-6608-4150-8b26-93e8f8cb08bf">
+    <name>ПоместитьЧастьФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поместить часть файла</value>
+    </synonym>
+    <template>/{Версия}/PutFilePart</template>
+    <methods uuid="4045be3f-acf8-46e7-b341-50e43061b3ff">
+      <name>post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПоместитьЧастьФайла_POST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="5f69bb2a-c544-4e15-a86b-616ec73d012b">
+    <name>СобратьФайлИзЧастей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Собрать файл из частей</value>
+    </synonym>
+    <template>/{Версия}/SaveFileFromParts</template>
+    <methods uuid="aed6eda6-07f1-48a2-81f4-8685216ec311">
+      <name>post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>СобратьФайлИзЧастей_POST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="57f8a606-4f73-458e-aca4-0c0d5d713fea">
+    <name>ВыполнитьЗагрузкуДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнить загрузку данных</value>
+    </synonym>
+    <template>/{Версия}/DownloadData</template>
+    <methods uuid="7382c9ad-82da-4359-9335-3eb32c8e10e6">
+      <name>post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ВыполнитьЗагрузкуДанных_POST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="66ae4013-378f-4290-b03e-5d88f3d16765">
+    <name>ПолучитьСостояниеДлительнойОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить состояние длительной операции</value>
+    </synonym>
+    <template>/{Версия}/GetContinuousOperationStatus</template>
+    <methods uuid="acc778b6-29ad-47dd-b148-ee66efb104d5">
+      <name>get</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get</value>
+      </synonym>
+      <handler>ПолучитьСостояниеДлительнойОперации_GET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="ca99eea3-74d6-4264-bd83-6c7b77ea3f17">
+    <name>ВыполнитьВыгрузкуДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнить выгрузку данных</value>
+    </synonym>
+    <template>/{Версия}/UploadData</template>
+    <methods uuid="86f962a3-f97f-42f3-8338-4c80de3957ee">
+      <name>post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ВыполнитьВыгрузкуДанных_POST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="aff8c0b5-bb53-4ba1-9c16-2c51bd0092ca">
+    <name>ПодготовитьФайлДляПолучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подготовить файл для получения</value>
+    </synonym>
+    <template>/{Версия}/PrepareGetFile</template>
+    <methods uuid="a51429e9-238b-44b8-9793-da6cebcd4320">
+      <name>post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПодготовитьФайлДляПолучения_POST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="ef1a34fa-29c5-4a7e-8f7c-ee3e6e67a345">
+    <name>ПолучитьЧастьФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить часть файла</value>
+    </synonym>
+    <template>/{Версия}/GetFilePart</template>
+    <methods uuid="9026e00d-1d1c-4f48-963b-6b5fcf7edeec">
+      <name>get</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get</value>
+      </synonym>
+      <handler>ПолучитьЧастьФайла_GET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="cceb5a44-dea4-4b88-8e79-0b9674992b31">
+    <name>УдалитьФайлы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить файлы</value>
+    </synonym>
+    <template>/{Версия}/ReleaseFile</template>
+    <methods uuid="1b4dc71d-e454-4d1a-a302-ac1726a31f63">
+      <name>delete</name>
+      <synonym>
+        <key>ru</key>
+        <value>Delete</value>
+      </synonym>
+      <httpMethod>DELETE</httpMethod>
+      <handler>УдалитьФайлы_DELETE</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="fa96d6f9-1770-41b4-990d-21b53206454a">
+    <name>УдалитьУзелОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить узел обмена</value>
+    </synonym>
+    <template>/{Версия}/RemoveExchangeNode</template>
+    <methods uuid="2ed8bce3-8325-4b3e-b5d8-a4e6039d16b9">
+      <name>delete</name>
+      <synonym>
+        <key>ru</key>
+        <value>Delete</value>
+      </synonym>
+      <httpMethod>DELETE</httpMethod>
+      <handler>УдалитьУзелОбмена_DELETE</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

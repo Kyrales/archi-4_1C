@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core">
+	<filter>
+		<item xsi:type="FilterItemComparison">
+			<left xsi:type="dcscor:Field">СрокХранения</left>
+			<comparisonType>LessOrEqual</comparisonType>
+			<right xsi:type="dcscor:Field">ДатаАктуальности</right>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<left xsi:type="dcscor:Field">СрокХранения</left>
+			<comparisonType>NotEqual</comparisonType>
+			<right xsi:type="dcscor:Field">ДатаБессрочно</right>
+		</item>
+		<userSettingID>3d227f11-7249-4b8e-8c3e-50d481d9f473</userSettingID>
+	</filter>
+	<order>
+		<item xsi:type="OrderItemField">
+			<field>СрокХранения</field>
+			<orderType>Asc</orderType>
+		</item>
+		<userSettingID>f07de0a1-2aef-4ac4-a2df-65813d1ae03c</userSettingID>
+	</order>
+	<conditionalAppearance>
+		<userSettingID>20f8926d-2de5-4adc-badd-191c814ad567</userSettingID>
+	</conditionalAppearance>
+	<itemsUserSettingID>b025b404-35f5-4a17-82fe-f360e39ee942</itemsUserSettingID>
+</Settings>

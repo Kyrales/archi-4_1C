@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12a01260-9c0f-4dc2-8b2e-d5fe3a2ec1ab">
+  <name>ПодборФИО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подбор ФИО</value>
+  </synonym>
+  <content>InformationRegister.КлассификаторФИО</content>
+  <content>CommonModule.ПодборФИО</content>
+  <content>CommonModule.ПодборФИОВызовСервера</content>
+  <content>CommonModule.ПодборФИОКлиент</content>
+  <content>Enum.ВидДанныхФИО</content>
+  <parentSubsystem>Subsystem.ИнтернетПоддержкаПользователей</parentSubsystem>
+</mdclass:Subsystem>

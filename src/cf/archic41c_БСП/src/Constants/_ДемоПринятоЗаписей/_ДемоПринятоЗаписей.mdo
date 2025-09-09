@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ec75fa4-de1b-41ca-ae90-30a705eeefd5">
+  <producedTypes>
+    <managerType typeId="cd529e3e-9f45-4cf5-9064-7aaa0d264346" valueTypeId="59ab2101-a7ba-4435-9cb8-d7819e4ec686"/>
+    <valueManagerType typeId="a57ce78b-ab7c-4f94-b00a-1de58264b98f" valueTypeId="37e372f1-b8ee-412e-851c-8ca28087cfcc"/>
+    <valueKeyType typeId="7fca2add-ae52-49f9-a17e-50f473bc4f55" valueTypeId="ffd2c382-e056-4183-9dfc-b4d2578c121e"/>
+  </producedTypes>
+  <name>_ДемоПринятоЗаписей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Принято записей</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

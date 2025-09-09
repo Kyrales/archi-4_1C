@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5e5a00a-2156-4260-845c-eb32af21849c">
+  <producedTypes>
+    <selectionType typeId="6f99d0f5-de0f-441e-bbde-03cc35f23d5c" valueTypeId="f5eb688a-8686-47b4-814a-2a4392af7870"/>
+    <listType typeId="56b19cec-33c9-47b4-80d2-e971e159a361" valueTypeId="62ca1b78-f3ee-45c1-942d-67898b8eb6db"/>
+    <managerType typeId="bd88584c-d35f-43d0-b0da-c35683c705ef" valueTypeId="d65ee6e6-a93f-4320-9413-4d0dbd0a4229"/>
+    <recordSetType typeId="4989f012-98df-4742-a91a-c197b4c7676c" valueTypeId="8a608b2a-afe7-44fc-b10a-da15aeb8e43c"/>
+    <recordKeyType typeId="6c3ac4f8-6bbc-4a1b-ad57-34e09f115b68" valueTypeId="144699db-b464-4913-8b8a-484873556287"/>
+    <recordType typeId="318e1f5e-d1bd-479b-809c-70b439130b10" valueTypeId="e080785a-db27-4848-b130-c1a94206e103"/>
+    <recordManagerType typeId="34e08f94-fd0f-4065-9ece-8c99ed516a56" valueTypeId="8d608d12-f750-4c18-ab0d-da4abcc81076"/>
+  </producedTypes>
+  <name>_ДемоОбщиеСведения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Общие сведения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="56b6125a-98aa-4135-89ac-3ed1286e036c">
+    <name>Измерение1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измерение 1</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Удалить_ДемоОбщиеСведения</types>
+      <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f8d477b5-8c89-4b33-907f-72b2905bd2cf">
+    <name>Измерение2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измерение 2</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Удалить_ДемоОбщиеСведения</types>
+      <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="92656e2e-e5e1-499f-9c70-91a2a206927b">
+    <name>Измерение3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измерение 3</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Удалить_ДемоОбщиеСведения</types>
+      <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

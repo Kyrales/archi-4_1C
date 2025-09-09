@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b4bfcde-e99a-4864-9dde-aeef4c932c18">
+  <name>СообщенияВСлужбуТехническойПоддержки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сообщения в службу технической поддержки</value>
+  </synonym>
+  <content>CommonModule.СообщенияВСлужбуТехническойПоддержки</content>
+  <content>CommonModule.СообщенияВСлужбуТехническойПоддержкиКлиент</content>
+  <content>CommonModule.СообщенияВСлужбуТехническойПоддержкиВызовСервера</content>
+  <content>CommonModule.СообщенияВСлужбуТехническойПоддержкиКлиентСервер</content>
+  <content>CommonModule.СообщенияВСлужбуТехническойПоддержкиПереопределяемый</content>
+  <parentSubsystem>Subsystem.ИнтернетПоддержкаПользователей</parentSubsystem>
+</mdclass:Subsystem>

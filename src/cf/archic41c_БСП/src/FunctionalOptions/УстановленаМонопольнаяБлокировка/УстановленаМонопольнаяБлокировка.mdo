@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b486049-04a4-49bb-bb77-cda77c2e49d7">
+  <name>УстановленаМонопольнаяБлокировка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установлена монопольная блокировка</value>
+  </synonym>
+  <location>Constant.УстановленаМонопольнаяБлокировка</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Catalog.СценарииОбменовДанными.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>CommonForm._ДемоФормаВыбораДополнительныхУсловий.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog._ДемоМестаХранения.StandardCommand.OpenList</commands>
+      <commands>InformationRegister._ДемоОтветственныеЛица.StandardCommand.OpenList</commands>
+      <commands>Catalog._ДемоПодразделения.StandardCommand.OpenList</commands>
+      <commands>Catalog.СценарииОбменовДанными.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

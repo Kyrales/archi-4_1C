@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc2b7a9e-132b-4a30-b7a8-ec72bf3d2e63">
+  <name>РаботаСКурсамиВалютЛокализация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с курсами валют локализация</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

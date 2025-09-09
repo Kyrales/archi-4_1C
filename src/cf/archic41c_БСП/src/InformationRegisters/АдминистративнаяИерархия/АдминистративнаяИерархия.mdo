@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab4dbaff-cee6-47b3-9d69-13ac5c906f95">
+  <producedTypes>
+    <selectionType typeId="2f2b5932-32e0-411b-accc-79d663c5308c" valueTypeId="d0e7c752-ba71-4abd-9270-0466e4690f05"/>
+    <listType typeId="b957dd6a-b02c-4096-8a02-4ca35d78a3b3" valueTypeId="03f68375-9720-4b0e-a295-f117fda59b5e"/>
+    <managerType typeId="f91e151b-de23-41be-a03d-15c69393c1c3" valueTypeId="6c207d37-4131-4f7b-aabc-af817ddba3e0"/>
+    <recordSetType typeId="ef23c5b7-2a2b-4573-a996-b7e9b0c719c9" valueTypeId="fd412dab-25bc-44eb-902f-042926f10b4a"/>
+    <recordKeyType typeId="139107d1-4583-43ef-8b20-283a3074458a" valueTypeId="a3e617b1-9fb0-4242-8e71-484fdd964ed2"/>
+    <recordType typeId="b849da51-b14a-4348-87e7-9ba778ef267d" valueTypeId="7781708e-61a2-40c8-99c1-be2eb641ddf4"/>
+    <recordManagerType typeId="f9f726d6-bd9a-4cf8-bb57-ee742ca0fad4" valueTypeId="3b56124e-5e83-4928-9e5e-2085155d456b"/>
+  </producedTypes>
+  <name>АдминистративнаяИерархия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Административная иерархия</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="82d5ed02-654f-4b86-b995-baf64a147a12">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Глобальный уникальный идентификатор объекта </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ba96177b-d10c-4ad2-9851-dea312eeafd2">
+    <name>РодительскийИдентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родительский идентификатор</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Идентификатор родительского объекта</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7652c0d3-1b6e-4e0d-96d0-7bbdff808ce9">
+    <name>КодСубъектаРФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код субъекта РФ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Код субъекта РФ в адресном классификаторе</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

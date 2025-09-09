@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="922fd510-be67-4d31-bfd1-7598820572df">
+  <producedTypes>
+    <objectType typeId="33eb1c11-60c0-4373-834c-28b93251e903" valueTypeId="b272649e-9e41-43b1-96ae-459c184ca106"/>
+    <managerType typeId="0368fa06-b2e0-4006-b318-86ac731999a0" valueTypeId="1cd3ef09-efae-46cf-ae95-e277451b07db"/>
+  </producedTypes>
+  <name>ТранспортСообщенийОбменаHTTP</name>
+  <synonym>
+    <key>ru</key>
+    <value>Транспорт сообщений обмена HTTP</value>
+  </synonym>
+  <defaultForm>DataProcessor.ТранспортСообщенийОбменаHTTP.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="4c1af4ee-345d-47aa-a2a5-2c31df127bf0">
+    <name>АдресВебСервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4f657e5a-20fe-4de9-9189-30a4c82cd23d">
+    <name>ИмяПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1829f072-ef4e-4123-b47b-079058102e61">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d9baa5aa-4e9f-4b0a-834c-d97fa390b1bb">
+    <name>ЗапомнитьПароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запомнить пароль</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="9c3f0bdb-7a16-4357-9850-e8a82b806c08">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="49474d66-f4cc-4393-8e0b-7ce2c481af95">
+    <name>ФормаНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6ff9b259-9b5c-4192-98c5-4a86596fd05d">
+    <name>ФормаАутентификации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма аутентификации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

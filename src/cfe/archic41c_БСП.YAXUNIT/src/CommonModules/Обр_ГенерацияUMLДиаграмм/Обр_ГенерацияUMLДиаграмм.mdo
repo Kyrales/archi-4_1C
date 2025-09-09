@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a995a74-751e-4b1a-8f36-2402f0121e22">
+  <name>Обр_ГенерацияUMLДиаграмм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Генерация UML-диаграмм</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8b3b203-4200-4268-bad3-c559416236a5">
+  <producedTypes>
+    <managerType typeId="1688bbd8-69bb-428c-b5ae-192ea754aac3" valueTypeId="17aa4749-a98c-4096-ae3c-14c03e9f7a3f"/>
+    <valueManagerType typeId="3ac01939-55e0-4b42-bab9-fbf1c310853d" valueTypeId="0c426fe8-681f-4c02-9eb6-491328f3e040"/>
+    <valueKeyType typeId="29ff9002-d5d0-4f13-808b-efd1eceab6df" valueTypeId="396061f0-46de-48ea-800b-2e208f072b55"/>
+  </producedTypes>
+  <name>УстановленаМонопольнаяБлокировка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установлена монопольная блокировка</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

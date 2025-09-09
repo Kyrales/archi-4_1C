@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62c00b76-e938-418f-9168-487ae33afc39">
+  <producedTypes>
+    <containerType typeId="ca9967c6-350f-4556-8dab-be915ade3002" valueTypeId="d1502b97-2ac5-4fd2-9e31-b3d2698a919d"/>
+  </producedTypes>
+  <name>ШаблонСообщенияБИП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблон сообщения БИП</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ШаблоныСообщений</types>
+  </type>
+</mdclass:DefinedType>

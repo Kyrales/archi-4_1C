@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9f3ca9a-c770-4c3b-9e6a-ec7d03a84c4b">
+  <name>УдалениеФайловВременногоХранилища</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удаление файлов временного хранилища</value>
+  </synonym>
+  <methodName>CommonModule.ФайлыБТС.УдалениеФайловВременногоХранилища</methodName>
+  <key>1</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

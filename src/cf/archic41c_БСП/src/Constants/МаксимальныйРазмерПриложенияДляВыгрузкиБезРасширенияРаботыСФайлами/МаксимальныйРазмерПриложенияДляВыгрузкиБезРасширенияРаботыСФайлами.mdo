@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1a7f535-2612-4fe2-bc85-512ec00fa6e8">
+  <producedTypes>
+    <managerType typeId="0a3f2708-1938-49d2-917a-d3f3b21c792b" valueTypeId="eb809931-ce06-4e78-892d-ee6700f7f0dc"/>
+    <valueManagerType typeId="9ccbafda-daa5-40fa-97ba-8938fdbfd10b" valueTypeId="0b1e885f-3799-474d-b198-4e0ea0b3012b"/>
+    <valueKeyType typeId="ac6db481-d6ac-472f-8acb-2ed9c31795ae" valueTypeId="76a0530b-9d95-4bb1-ad1f-7df255048369"/>
+  </producedTypes>
+  <name>МаксимальныйРазмерПриложенияДляВыгрузкиБезРасширенияРаботыСФайлами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Максимальный размер приложения для выгрузки без расширения работы с файлами (Мб)</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

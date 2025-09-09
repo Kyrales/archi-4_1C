@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96229b23-74a9-4fe1-a89e-b71f499cd65a">
+  <producedTypes>
+    <selectionType typeId="a408c076-33b1-4659-883c-92231cfbe2e9" valueTypeId="ee578eeb-1085-4abb-b673-decea7cccb8c"/>
+    <listType typeId="4d98a820-6746-40a8-a654-e1d998a4e1ed" valueTypeId="01bd0605-fbc8-499d-a08f-c0099d2d7361"/>
+    <managerType typeId="e2b9ff74-ebbc-4020-9bb2-d078763720c5" valueTypeId="cf08449a-9441-4162-8aed-9cd2794d1daa"/>
+    <recordSetType typeId="6cf797db-5fb5-44ca-8449-f01a3ba914a2" valueTypeId="02cdb2d1-ff96-4fcd-8f5a-006db9adb27d"/>
+    <recordKeyType typeId="da58eeb3-2651-4768-9289-2be0ec2e727f" valueTypeId="b12afdbd-dbcf-445f-a21e-fde95b679f05"/>
+    <recordType typeId="28b1cac4-eb21-4407-978b-645bbcf64132" valueTypeId="677b6f49-080b-450e-b877-4166d30cf538"/>
+    <recordManagerType typeId="bf92a04f-8572-4db2-a2c8-93e59d41eb62" valueTypeId="c5771c00-de41-4aa6-b985-244d12e95953"/>
+  </producedTypes>
+  <name>НастройкиПолномочийМЧД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки полномочий МЧД</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="15000713-0142-42e9-8bb3-cbb0587200d4">
+    <name>Настройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d5ae7e0b-c230-402f-9d4f-e52c2b9aa240">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0d199fdc-d2af-4159-91d6-6f15266f9ce8">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

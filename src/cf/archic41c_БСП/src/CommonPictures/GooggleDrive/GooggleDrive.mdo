@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2bfd1161-8b6e-415c-92db-743a95373c7e">
+  <name>GooggleDrive</name>
+  <synonym>
+    <key>ru</key>
+    <value>Googgle drive</value>
+  </synonym>
+</mdclass:CommonPicture>

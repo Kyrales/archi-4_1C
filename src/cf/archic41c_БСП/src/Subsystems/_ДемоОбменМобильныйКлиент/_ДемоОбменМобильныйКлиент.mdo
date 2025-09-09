@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="614f7bf7-c7f4-499f-901b-30cf0e08a710">
+  <name>_ДемоОбменМобильныйКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Обмен мобильный клиент</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Constant._ДемоОтправленоЗаписей</content>
+  <content>Constant._ДемоПринятоЗаписей</content>
+  <content>Constant._ДемоКодНовогоУзлаПланаОбмена</content>
+  <content>CommonModule._ДемоОбменМобильныйКлиентВызовСервера</content>
+  <content>CommonModule._ДемоОбменМобильныйКлиент</content>
+  <content>CommonModule._ДемоОбменМобильныйКлиентКлиент</content>
+  <content>CommonModule._ДемоОбменМобильныйКлиентГлобальный</content>
+  <content>ExchangePlan._ДемоМобильныйКлиент</content>
+  <content>CommonModule._ДемоОбменМобильныйКлиентАвтономныйВызовСервера</content>
+  <content>CommonModule._ДемоОбменМобильныйКлиентАвтономныйКлиент</content>
+  <content>Role._ДемоОбменМобильныйКлиент</content>
+  <content>EventSubscription._ДемоЗарегистрироватьИзмененияДляАвтономногоРежимаРегистры</content>
+  <content>EventSubscription._ДемоЗарегистрироватьИзмененияДляАвтономногоРежима</content>
+</mdclass:Subsystem>

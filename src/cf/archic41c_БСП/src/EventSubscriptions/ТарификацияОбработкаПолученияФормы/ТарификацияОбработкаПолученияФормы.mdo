@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1c4ed7e-a7bf-4537-ba5e-81f45d0503ee">
+  <name>ТарификацияОбработкаПолученияФормы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тарификация обработка получения формы</value>
+  </synonym>
+  <source>
+    <types>AccumulationRegisterManager</types>
+    <types>InformationRegisterManager</types>
+    <types>ChartOfAccountsManager</types>
+    <types>DocumentManager</types>
+    <types>CalculationRegisterManager</types>
+    <types>BusinessProcessManager</types>
+    <types>AccountingRegisterManager</types>
+    <types>ChartOfCalculationTypesManager</types>
+    <types>TaskManager</types>
+    <types>ChartOfCharacteristicTypesManager</types>
+    <types>CatalogManager</types>
+    <types>DocumentJournalManager</types>
+  </source>
+  <event>FormGetProcessing</event>
+  <handler>CommonModule.ТарификацияВызовСервера.ОбработкаПолученияФормы</handler>
+</mdclass:EventSubscription>

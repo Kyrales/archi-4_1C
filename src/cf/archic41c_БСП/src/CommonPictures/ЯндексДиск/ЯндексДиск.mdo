@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e01c575c-51ce-4e06-978b-da59b8bfb029">
+  <name>ЯндексДиск</name>
+  <synonym>
+    <key>ru</key>
+    <value>Яндекс диск</value>
+  </synonym>
+</mdclass:CommonPicture>

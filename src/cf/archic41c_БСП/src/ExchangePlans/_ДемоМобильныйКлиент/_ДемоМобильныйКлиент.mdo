@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae8784f9-dfa2-4e9d-876e-9850f88b3e2f" thisNode="d9a2bcf3-7126-4ae9-8f74-bf2ae9f263d5">
+  <producedTypes>
+    <objectType typeId="aac53804-a7a6-4776-9cb6-640f69c162db" valueTypeId="f3927a73-20a7-4c41-9d63-d381c3de3b12"/>
+    <refType typeId="ec7693a9-e09f-48bc-bbf2-538f6f91cf4b" valueTypeId="d7c6500c-8af3-42de-8cc2-80b2b957410d"/>
+    <selectionType typeId="3572cad0-f3d0-440f-b49a-d86b0ec9889e" valueTypeId="5e3034bb-0132-4dc0-9e1b-3bfd90c9d8f4"/>
+    <listType typeId="0b3df31e-a33e-47fa-829c-70835d7782a0" valueTypeId="67e74779-356d-4c73-970c-b1c6ee89f21a"/>
+    <managerType typeId="93efc69e-e8ce-490c-ad19-2c3589382667" valueTypeId="7f4c057b-5df5-4f79-bc9e-8219cfb0a57b"/>
+  </producedTypes>
+  <name>_ДемоМобильныйКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Мобильный клиент</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan._ДемоМобильныйКлиент.StandardAttribute.Code</inputByString>
+  <inputByString>ExchangePlan._ДемоМобильныйКлиент.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Демо: Автономный мобильный клиент</value>
+  </objectPresentation>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>Catalog.ВариантыОтчетов</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.СнимкиОтчетов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Пользователи</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ExchangePlan>

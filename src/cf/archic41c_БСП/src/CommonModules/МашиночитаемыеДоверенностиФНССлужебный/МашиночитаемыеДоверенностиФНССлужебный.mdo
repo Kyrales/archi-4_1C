@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73126993-73e6-4734-9e72-287b672f40ad">
+  <name>МашиночитаемыеДоверенностиФНССлужебный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Машиночитаемые доверенности ФНС Служебный</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

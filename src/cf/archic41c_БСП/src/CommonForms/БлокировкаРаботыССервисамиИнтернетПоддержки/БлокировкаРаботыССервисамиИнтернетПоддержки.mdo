@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ad739a8-06b4-4f00-a603-38485314aee3">
+  <name>БлокировкаРаботыССервисамиИнтернетПоддержки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Блокировка работы с сервисами Интернет-поддержки</value>
+  </synonym>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

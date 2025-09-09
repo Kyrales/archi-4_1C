@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a75aa04b-a04e-4c21-8a4c-c8cfefcd7c52">
+  <producedTypes>
+    <refType typeId="461f7a06-db43-4d5b-ac0e-4efdd9de960b" valueTypeId="474f1e81-8e1e-44ed-a670-69f174cc6f5b"/>
+    <listType typeId="59caa02b-fce9-455f-bbeb-883caaea9080" valueTypeId="7667678d-2599-46eb-b8e9-29ea86d8b236"/>
+    <managerType typeId="8b360bac-d70a-433c-bd57-48bf45c51a5a" valueTypeId="ebd0be94-eb5f-41a2-9bcd-c38f8c05e61a"/>
+  </producedTypes>
+  <name>ТипыУчастниковМЧД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы участников МЧД</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d35a861d-bc36-4811-97c9-4a9bc58a89f4">
+    <name>Доверитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доверитель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3b02a8f9-572a-44d4-b8ee-6e1a7459e235">
+    <name>Представитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представитель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="609c7552-ad78-489c-93e2-51b672e82082">
+    <name>Нотариус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нотариус</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

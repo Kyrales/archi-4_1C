@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e4f56cf-cd89-4cd0-b566-20c42ac5f99e">
+  <producedTypes>
+    <selectionType typeId="9edf3e8f-3a6b-43df-938b-14d1af93ae82" valueTypeId="af52cb14-4362-4454-9ab3-9e8ce2cb811d"/>
+    <listType typeId="bd3d49c0-e5cf-4938-9118-29a717518266" valueTypeId="181443ac-1d1f-4410-a4e4-47bc8055cecc"/>
+    <managerType typeId="eaee6079-c494-4a9d-aceb-c64019f1e3b8" valueTypeId="80b82692-df55-4224-a28d-0449acaf3a34"/>
+    <recordSetType typeId="5fb94a97-d77d-4344-991c-dd0a6359ea86" valueTypeId="209ad6b0-97b5-4249-b2e3-b2455069fe0a"/>
+    <recordKeyType typeId="4c06277e-0857-4da0-9c4d-dbac71bab689" valueTypeId="c5ffbceb-efe8-459f-a86e-94fa5bde138c"/>
+    <recordType typeId="5b3c6099-38bf-4415-903c-c95cba318c97" valueTypeId="b7af7389-81cb-45eb-bf71-70adae997d96"/>
+    <recordManagerType typeId="188946b5-5603-404a-b926-f8cd3b0cb8f4" valueTypeId="95e43819-47b1-48fe-a8da-a757574e1056"/>
+  </producedTypes>
+  <name>КлассификаторыМЧД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Классификаторы МЧД</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="815035c6-14be-45f1-ab58-a3ac51848db5">
+    <name>Данные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="db0abb94-e1cd-41f2-becd-4630ad7bbe22">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="5dc728d2-eb61-4524-b4e3-5ac8aeabab29">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <templates uuid="9823a704-8602-430e-b1f3-0893b2285401">
+    <name>Полномочия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полномочия</value>
+    </synonym>
+    <comment>АПК:497 Не подлежит переводу, находится в локализованной части</comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="b39b8193-1d46-46b6-844e-112f9fcd7f9b">
+    <name>ОграниченияПолномочий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ограничения полномочий</value>
+    </synonym>
+    <comment>АПК:497 Не подлежит переводу, находится в локализованной части</comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="ed216057-b1ce-489c-a120-581043f6d438">
+    <name>ЗначенияОграниченийПолномочий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значения ограничений полномочий</value>
+    </synonym>
+    <comment>АПК:497 Не подлежит переводу, находится в локализованной части</comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:InformationRegister>

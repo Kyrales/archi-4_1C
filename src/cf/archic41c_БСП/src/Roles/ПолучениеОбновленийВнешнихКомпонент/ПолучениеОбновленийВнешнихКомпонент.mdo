@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f405dfe-fecd-413a-acb7-e6dc0cfa700b">
+  <name>ПолучениеОбновленийВнешнихКомпонент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение обновлений внешних компонент</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e29d96ee-e8fa-4100-8a0e-494398e4ec9d">
+  <name>ОбъектыНезарегистрированныеПриЗацикливании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты незарегистрированные при зацикливании</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

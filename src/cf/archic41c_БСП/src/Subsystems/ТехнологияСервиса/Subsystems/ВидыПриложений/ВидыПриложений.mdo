@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3026cd7-6373-4a72-99a6-496a1cc13a11">
+  <name>ВидыПриложений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды приложений</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ВидыПриложенийПереопределяемый</content>
+  <content>CommonModule.ВидыПриложенийСервер</content>
+  <content>CommonModule.ВидыПриложенийСлужебный</content>
+  <content>CommonCommand.ПерейтиНаНовыйВидПриложения</content>
+  <content>Constant.ИмяВидаПриложенияАвтономногоРабочегоМеста</content>
+  <content>Constant.ПредставлениеВидаПриложенияАвтономногоРабочегоМеста</content>
+  <content>InformationRegister.ВидыПриложенийОбластейДанных</content>
+  <parentSubsystem>Subsystem.ТехнологияСервиса</parentSubsystem>
+</mdclass:Subsystem>

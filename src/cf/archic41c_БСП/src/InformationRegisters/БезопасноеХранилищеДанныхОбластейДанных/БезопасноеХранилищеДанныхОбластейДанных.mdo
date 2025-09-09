@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52231550-161f-4ac9-86f8-f6b2a6e6283a">
+  <producedTypes>
+    <selectionType typeId="caecbc16-7a74-4658-ae5d-d6309d777bf5" valueTypeId="ed620c6e-380f-40e1-9301-79201847a737"/>
+    <listType typeId="7c160dd1-bca9-43d2-8163-458b965195f8" valueTypeId="ab35fdf7-aac1-4fe3-ad7e-64612bf22c99"/>
+    <managerType typeId="88eb540a-d014-45da-8350-71e14fcda85e" valueTypeId="fc7ff042-6593-4511-a4e6-30066a71453e"/>
+    <recordSetType typeId="b344619d-7904-4c7a-ad6f-b41ac5a09ca9" valueTypeId="5b387441-57c4-4e84-80f6-63b442321185"/>
+    <recordKeyType typeId="18bc21f0-c69a-4d9d-b522-81af3592d6be" valueTypeId="028a7fe9-9b86-4808-9193-af4eb08ee61e"/>
+    <recordType typeId="1627c544-6eda-47dd-a021-75ad5d410aa5" valueTypeId="3a7d417d-100d-4b14-8804-22a034859120"/>
+    <recordManagerType typeId="09bdfdbe-427e-421b-bd3c-84039b09aa8a" valueTypeId="be930490-aedb-48bf-9b9c-66be84a5b412"/>
+  </producedTypes>
+  <name>БезопасноеХранилищеДанныхОбластейДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Безопасное хранилище данных областей данных</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6cdb0a08-84fd-43c4-bc4a-2c1f1357cf5a">
+    <name>Данные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="133e9b99-37a3-44c9-b5ab-873f196de023">
+    <name>Владелец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец</value>
+    </synonym>
+    <comment>АПК:1329, АПК:1330 Универсальный составной тип, т.к. возможна работа с произвольным, заранее неизвестным составом типов.</comment>
+    <type>
+      <types>String</types>
+      <types>ExchangePlanRef</types>
+      <types>CatalogRef</types>
+      <stringQualifiers>
+        <length>128</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

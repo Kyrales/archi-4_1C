@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9378d484-2143-45eb-a71e-651055611789">
+  <producedTypes>
+    <selectionType typeId="f3267dbb-a328-47ca-8f05-2e713776c6b0" valueTypeId="4088ec84-6cf0-41ac-8a7b-dd6613a38ced"/>
+    <listType typeId="18a103b4-0175-40d2-ae6a-4f012e378ec7" valueTypeId="4097e0f8-2288-4470-bdb9-a922141d7dbc"/>
+    <managerType typeId="f3e9c25a-0852-4de9-b54b-8526c6e98b69" valueTypeId="c1dc18e7-e9c8-4b4d-b103-d4a364f984df"/>
+    <recordSetType typeId="8eb51dd0-241a-4e43-8523-7ec7eafb4ed9" valueTypeId="ec581c18-1c38-40f5-9d5d-439f1a17f850"/>
+    <recordKeyType typeId="4253c95c-4453-4d7f-9dd8-a0371f048e46" valueTypeId="aeca220d-a741-4050-b50f-db2e2d4484b6"/>
+    <recordType typeId="bdcb3c11-ddf0-485c-849c-9018762b4886" valueTypeId="760d7f73-a742-45b3-bd6d-bf71317cbd8c"/>
+    <recordManagerType typeId="aaf84e7c-33f3-4b57-bf11-4fbe45bfd79a" valueTypeId="48d9e2be-9b20-43ff-94d3-8c18baf03d7a"/>
+  </producedTypes>
+  <name>СубъектыДляРасчетаСроковХранения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Субъекты для расчета сроков хранения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Субъект для обновления срока хранения персональных данных</value>
+  </recordPresentation>
+  <attributes uuid="a2d24b4d-6039-49ab-8cc2-14d03a2d5546">
+    <name>ДатаСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата события</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="c5d0eafb-469e-4a24-8b5e-ce25fb627d3d">
+    <name>Субъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Субъект</value>
+    </synonym>
+    <type>
+      <types>DefinedType.СубъектПерсональныхДанных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

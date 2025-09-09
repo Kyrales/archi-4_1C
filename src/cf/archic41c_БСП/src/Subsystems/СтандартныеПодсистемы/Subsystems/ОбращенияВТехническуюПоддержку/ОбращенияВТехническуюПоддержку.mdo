@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="491b9625-62ce-436b-8245-60decacc4552">
+  <name>ОбращенияВТехническуюПоддержку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обращения в техническую поддержку</value>
+  </synonym>
+  <content>CommonModule.ОбращенияВТехническуюПоддержкуСлужебный</content>
+  <content>CommonModule.ОбращенияВТехническуюПоддержкуСлужебныйКлиент</content>
+  <content>CommonModule.ОбращенияВТехническуюПоддержкуСлужебныйВызовСервера</content>
+  <content>CommonModule.ОбращенияВТехническуюПоддержкуГлобальный</content>
+  <content>CommonModule.ОбращенияВТехническуюПоддержкуЛокализация</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

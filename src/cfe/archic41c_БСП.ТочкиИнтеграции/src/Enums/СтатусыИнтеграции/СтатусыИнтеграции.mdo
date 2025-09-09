@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9a70981-47c0-47cf-8e6c-95167d3411b7">
+  <producedTypes>
+    <refType typeId="49ddd17a-35e6-45d1-a052-00bd1caec1fc" valueTypeId="4cf0567e-7f56-46c4-9a80-2feabcd99a6a"/>
+    <listType typeId="7e67b649-93a8-4dba-8e41-d5c07221517e" valueTypeId="80f80a0c-f69a-4f57-bc14-feb7a634e74c"/>
+    <managerType typeId="d7200e29-52f4-4696-affd-cc56de7f4fc7" valueTypeId="dbc528b4-a39a-4bea-9a03-55cb4e84fa7f"/>
+  </producedTypes>
+  <name>СтатусыИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы интеграции</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a244cd2b-19d2-4ebe-b292-93706dcbb16e">
+    <name>Работает</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работает</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dbcf61cc-62f1-4bde-b08b-8ed6f0e9b7ad">
+    <name>Выключена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выключена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c0007bc4-b7c0-41e1-a384-3433b5a1a495">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="db7f91d2-2a3d-4f16-965b-5971620b8bf6">
+    <name>ВПроцессеРазработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>В процессе разработки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e55a7fb1-722e-4df0-a500-f4ac9f614e59">
+    <name>Разработана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разработана</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="72cb1ba0-57ad-4410-b083-15f7446deda1">
+    <name>Неактуальна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неактуальна</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fda24f7a-e953-4e0f-9fb3-911f05bf0d2d">
+  <producedTypes>
+    <refType typeId="1ba6c7cd-73f4-4007-bd74-70b49553a634" valueTypeId="726d297d-f420-457f-bba1-cbd2e178d7dd"/>
+    <listType typeId="6b4e0413-77d0-47fd-9863-f891b93c49b7" valueTypeId="9709cb5e-f640-444a-8edd-43fcbeaa87cd"/>
+    <managerType typeId="08ac15bc-f6bd-4cff-9d52-9a06b4168674" valueTypeId="d9a4f7ca-7ee6-47ae-a9bf-764cc52403b3"/>
+  </producedTypes>
+  <name>СервисМобильнойПодписиСтатусы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис мобильной подписи статусы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f237e5f9-da2a-445a-bd09-86ded0235cae">
+    <name>Успешно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Успешно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c4ac43ef-7d79-46f0-a885-8bc954d9d078">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cd2c6006-1cbe-41ae-9ef9-c6b2af5064ee">
+    <name>ОжидаетОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидает обработки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a2e426b0-3804-4914-9431-3f6ecff92ee9">
+    <name>Отклонено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

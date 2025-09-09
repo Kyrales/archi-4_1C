@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog.Валюты.StandardCommand.OpenList</commands>
+      <commands>Catalog._ДемоБанковскиеСчета.StandardCommand.OpenList</commands>
+      <commands>Catalog._ДемоДоговорыКонтрагентов.StandardCommand.OpenList</commands>
+      <commands>Document._ДемоЗаказПокупателя.StandardCommand.OpenList</commands>
+      <commands>Catalog._ДемоКонтрагенты.StandardCommand.OpenList</commands>
+      <commands>Catalog._ДемоМестаХранения.StandardCommand.OpenList</commands>
+      <commands>Catalog._ДемоНоменклатура.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister._ДемоОборотыПоСчетамНаОплату.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister._ДемоОстаткиТоваровВМестахХранения.StandardCommand.OpenList</commands>
+      <commands>Catalog._ДемоПодразделения.StandardCommand.OpenList</commands>
+      <commands>Document._ДемоПоступлениеТоваров.StandardCommand.OpenList</commands>
+      <commands>InformationRegister._ДемоРаботникиОрганизаций.StandardCommand.OpenList</commands>
+      <commands>Document._ДемоРеализацияТоваров.StandardCommand.OpenList</commands>
+      <commands>Catalog._ДемоСтавкиНДС.StandardCommand.OpenList</commands>
+      <commands>Document._ДемоСчетНаОплатуПокупателю.StandardCommand.OpenList</commands>
+      <commands>Catalog._ДемоФизическиеЛица.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

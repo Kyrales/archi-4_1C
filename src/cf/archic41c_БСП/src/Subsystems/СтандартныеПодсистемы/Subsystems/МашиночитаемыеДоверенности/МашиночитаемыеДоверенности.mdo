@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3eca2d7c-5946-4d13-ba84-e3ab5ef38b5b">
+  <name>МашиночитаемыеДоверенности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Машиночитаемые доверенности</value>
+  </synonym>
+  <content>Catalog.МашиночитаемыеДоверенностиПрисоединенныеФайлы</content>
+  <content>Catalog.МашиночитаемыеДоверенности</content>
+  <content>Enum.ВозможностьПередоверияМЧД</content>
+  <content>InformationRegister.ЭлектронныеПодписиМЧД</content>
+  <content>InformationRegister.МашиночитаемыеДоверенностиПредставителиИДоверители</content>
+  <content>CommonModule.МашиночитаемыеДоверенностиФНССлужебный</content>
+  <content>CommonModule.МашиночитаемыеДоверенностиФНССлужебныйКлиентСервер</content>
+  <content>EventSubscription.ОпределитьФормуПрисоединенногоФайлаМЧД</content>
+  <content>XDTOPackage.МашиночитаемаяДоверенность_EMCHD_1</content>
+  <content>DefinedType.СторонаМЧД</content>
+  <content>Enum.СтатусыМЧД</content>
+  <content>SessionParameter.ПараметрыАвторизацииВРаспределенномРеестре</content>
+  <content>Constant.АдресСервисаМЧДРР</content>
+  <content>CommonModule.МашиночитаемыеДоверенностиФНССлужебныйКлиент</content>
+  <content>ScheduledJob.ОбновлениеСтатусовМЧД</content>
+  <content>InformationRegister.МашиночитаемыеДоверенностиСтатусы</content>
+  <content>Enum.ТехническиеСтатусыМЧД</content>
+  <content>Enum.СтатусыТранзакцииСРеестромМЧД</content>
+  <content>Enum.ТипыТранзакцийСРеестромМЧД</content>
+  <content>CommonModule.МашиночитаемыеДоверенностиФНС</content>
+  <content>CommonModule.МашиночитаемыеДоверенностиФНСПереопределяемый</content>
+  <content>CommonModule.МашиночитаемыеДоверенностиФНССлужебныйВызовСервера</content>
+  <content>CommonModule.МашиночитаемыеДоверенностиФНСКлиентПереопределяемый</content>
+  <content>Enum.ТипыУчастниковМЧД</content>
+  <content>CommonModule.МашиночитаемыеДоверенностиФНСКлиент</content>
+  <content>CommonTemplate.ВидыДокументовУдостоверяющихЛичность</content>
+  <content>InformationRegister.НастройкиПолномочийМЧД</content>
+  <content>CommonPicture.ПометкаНаУдаление</content>
+  <content>CommonModule.МашиночитаемыеДоверенностиФНСПовтИсп</content>
+  <content>CommonPicture.МЧДАктивна</content>
+  <content>CommonPicture.МЧДВРеестре</content>
+  <content>CommonPicture.МЧДИстекСрокДействия</content>
+  <content>CommonPicture.МЧДНаРегистрации</content>
+  <content>CommonPicture.МЧДОтменена</content>
+  <content>CommonPicture.МЧДПодписана</content>
+  <content>CommonPicture.МЧДСозданаПодписание</content>
+  <content>CommonPicture.МЧДСоздание</content>
+  <content>DefinedType.Контрагент</content>
+  <content>Role.ДобавлениеИзменениеМашиночитаемыхДоверенностей</content>
+  <content>Role.ЧтениеМашиночитаемыхДоверенностей</content>
+  <content>InformationRegister.КлассификаторыМЧД</content>
+  <content>ScheduledJob.ОбновлениеКлассификаторовМЧД</content>
+  <content>CommonPicture.МЧДСозданаПодписаниеБезРегистрации</content>
+  <content>CommonPicture.МЧДСозданиеБезРегистрации</content>
+  <content>CommonPicture.МЧДОшибка</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

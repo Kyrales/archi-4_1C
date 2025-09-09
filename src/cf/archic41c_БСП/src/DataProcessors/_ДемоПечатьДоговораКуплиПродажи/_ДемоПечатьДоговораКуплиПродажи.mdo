@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0ac821e-bb75-4cf6-b384-d82eff6bf928">
+  <producedTypes>
+    <objectType typeId="23efbe82-f6cc-4896-ac7b-4acd565619a6" valueTypeId="206380fb-7926-4f40-938b-c178b8407e29"/>
+    <managerType typeId="dea60e75-991a-4b69-b985-100900a2345b" valueTypeId="013a11ba-5412-4909-9353-309cf9a96002"/>
+  </producedTypes>
+  <name>_ДемоПечатьДоговораКуплиПродажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо: Печать договора купли-продажи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="210868fa-e3c0-4587-9874-81e7c78a23e4">
+    <name>ПФ_MXL_ДоговорКуплиПродажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор купли-продажи</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

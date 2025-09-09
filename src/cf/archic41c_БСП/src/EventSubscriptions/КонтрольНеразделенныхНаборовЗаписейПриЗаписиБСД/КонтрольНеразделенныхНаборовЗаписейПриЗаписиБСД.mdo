@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="003f2b4f-cdaa-4830-992d-9e376949a1b4">
+  <name>КонтрольНеразделенныхНаборовЗаписейПриЗаписиБСД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль неразделенных наборов записей при записи БСД</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.ПравилаДляОбменаДанными</types>
+    <types>InformationRegisterRecordSet.СообщенияОбменаДанными</types>
+    <types>InformationRegisterRecordSet.НастройкиТранспортаОбменаОбластейДанных</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.РаботаВМоделиСервисаБСП.КонтрольНеразделенныхНаборовЗаписейПриЗаписи</handler>
+</mdclass:EventSubscription>

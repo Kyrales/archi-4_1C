@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2e756db-3a3a-4f48-ad99-95a25f7bb69d">
+  <producedTypes>
+    <refType typeId="e1585912-ab3d-45a5-b8b9-39191cc7074f" valueTypeId="d822e01f-8637-4bc0-a95a-472ac2dbb261"/>
+    <listType typeId="7bab2fb1-91a9-4b8e-995a-f125d5342518" valueTypeId="a6f4115b-25d9-4b95-8937-b98d73d08eed"/>
+    <managerType typeId="83c79bb2-1c64-4254-b8eb-db394e03a768" valueTypeId="3cd5f2b9-51d4-4cee-bb13-8a610e07f860"/>
+  </producedTypes>
+  <name>ТипИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип интеграции</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="35f683eb-eee3-4ce9-92f3-76464a29fa8d">
+    <name>ОбменЧерезКаталог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен через каталог</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1b943182-9567-43d7-be3c-e132a15cf4ee">
+    <name>WebService</name>
+    <synonym>
+      <key>ru</key>
+      <value>Web-service (SOAP)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="951175be-df28-4992-b8ff-46ba22d75ac3">
+    <name>HTTPService</name>
+    <synonym>
+      <key>ru</key>
+      <value>HTTP-Service</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aec2bdf7-f741-40f8-8dd7-ea9977f0b5cc">
+    <name>ПрямоеПодключениеКSQL</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прямое подключение к SQL</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b84e3395-661e-47d6-a652-2738b7164130">
+    <name>ТехнологияCOM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Технология COM</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

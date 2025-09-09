@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4d0dc97-795b-4a9c-83f7-2eeb1e853953">
+  <producedTypes>
+    <managerType typeId="22d67a3d-0d62-487d-acba-208fe783b939" valueTypeId="f3da3ca8-db4f-4391-a5f9-55d266a4bf71"/>
+    <valueManagerType typeId="d8f6be7d-d608-4323-9bb7-79deecfce906" valueTypeId="58964d9f-addf-4d9b-b0ef-423a82be9567"/>
+    <valueKeyType typeId="57942b7f-7195-4062-b814-e29482c06e40" valueTypeId="1df59642-affc-4d28-a055-4f57318e7625"/>
+  </producedTypes>
+  <name>ИспользоватьОбщиеНастройкиВходаПользователейСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать общие настройки входа пользователей сервиса</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

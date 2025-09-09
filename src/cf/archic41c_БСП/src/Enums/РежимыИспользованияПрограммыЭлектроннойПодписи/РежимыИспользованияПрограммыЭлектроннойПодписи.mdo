@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e79dd738-4e6c-411a-97a2-d0acbe4918ee">
+  <producedTypes>
+    <refType typeId="6fb9437e-b462-44b8-ad4d-c2ba937c19f5" valueTypeId="0d1402a7-45d8-4873-bad9-c9369a628a78"/>
+    <listType typeId="016b4937-2317-4bd5-b911-55712cc6f34e" valueTypeId="eed448e7-a120-4960-8392-526c88bf6d99"/>
+    <managerType typeId="2835f845-897d-4b33-8f59-112999781cbb" valueTypeId="7eddbb28-2d0f-49ee-94d8-e4025eb14b50"/>
+  </producedTypes>
+  <name>РежимыИспользованияПрограммыЭлектроннойПодписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режимы использования приложения электронной подписи</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="571a910a-67c7-4fe9-b06e-78893498a606">
+    <name>Настроено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настроено вручную</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="86f98256-87d1-4922-8d70-a5d2cad1c385">
+    <name>Автоматически</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматически</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="05faa67b-195a-4f46-8e47-30c4208cbc64">
+    <name>НеИспользуется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не используется</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

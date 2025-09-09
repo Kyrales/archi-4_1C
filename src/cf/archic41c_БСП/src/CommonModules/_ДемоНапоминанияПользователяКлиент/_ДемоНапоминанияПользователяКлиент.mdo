@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb7585e4-9276-44d0-a66a-d5c6cf1d31bc">
+  <name>_ДемоНапоминанияПользователяКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демо напоминания пользователя клиент</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

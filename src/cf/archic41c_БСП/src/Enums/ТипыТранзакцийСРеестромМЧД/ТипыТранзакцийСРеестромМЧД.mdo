@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc72eb52-527f-438d-8750-c9f8f885d4ca">
+  <producedTypes>
+    <refType typeId="846a97db-3490-4e60-8cb9-90e708b5f5ca" valueTypeId="c29278c6-66da-4b83-9c1b-61628a96f7e5"/>
+    <listType typeId="c555cdc6-96c6-4902-9551-bf2b3a1a1754" valueTypeId="98cef03e-a027-47f0-b49d-5fc31abd9ef9"/>
+    <managerType typeId="83601db4-b8e8-4a6e-bb2d-9893f517b356" valueTypeId="578d6ded-a617-4344-9d58-b40bdcc64832"/>
+  </producedTypes>
+  <name>ТипыТранзакцийСРеестромМЧД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы транзакций с реестром МЧД</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0fd93c83-0c22-4ac0-b0a2-f9f9fe35a478">
+    <name>Регистрация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="45b9ede4-3776-4d26-974b-0ce724f62af6">
+    <name>Отмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отмена</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

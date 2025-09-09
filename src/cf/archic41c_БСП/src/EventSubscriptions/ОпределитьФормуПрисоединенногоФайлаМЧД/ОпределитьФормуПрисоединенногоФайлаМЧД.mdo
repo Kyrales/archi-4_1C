@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba38453b-6225-40b8-80d8-de00dc620d56">
+  <name>ОпределитьФормуПрисоединенногоФайлаМЧД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Определить форму присоединенного файла (МЧД)</value>
+  </synonym>
+  <comment>АПК:256 - обработчик в серверном модуле</comment>
+  <source>
+    <types>CatalogManager.МашиночитаемыеДоверенностиПрисоединенныеФайлы</types>
+  </source>
+  <event>FormGetProcessing</event>
+  <handler>CommonModule.РаботаСФайламиКлиентСервер.ОпределитьФормуПрисоединенногоФайла</handler>
+</mdclass:EventSubscription>

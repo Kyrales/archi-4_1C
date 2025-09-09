@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81979741-65c9-48a5-9f69-e0d0f0c8ddaa">
+  <producedTypes>
+    <managerType typeId="2d9f6679-2fae-4219-91d9-0736b5a76efe" valueTypeId="e0081fc9-9642-491b-84a7-67ac00fcc8f6"/>
+    <valueManagerType typeId="575cde02-40b0-4dbb-8b89-18ca654545e0" valueTypeId="f07c9eb1-d340-4eb5-b5d5-a0a6af15156b"/>
+    <valueKeyType typeId="d0ff4976-745e-4656-8e3b-08f17a029a63" valueTypeId="93832bc3-58a8-40c3-b92f-bac72daec34c"/>
+  </producedTypes>
+  <name>ИспользоватьКомандуЗаметки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать команду заметки</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2a57f4f-7c15-4f71-8856-062078744444">
+  <producedTypes>
+    <objectType typeId="616c4de0-f4ca-4da3-9ffd-3184218d6746" valueTypeId="0312307d-1d11-49f6-b921-0466bd750609"/>
+    <managerType typeId="b9413026-cde1-4e7e-b3c2-dcd3f80b35ea" valueTypeId="74b58a7f-580d-435b-ba3a-8ca1167c484b"/>
+  </producedTypes>
+  <name>ТранспортСообщенийОбменаЯндексДиск</name>
+  <synonym>
+    <key>ru</key>
+    <value>Транспорт сообщений обмена Яндекс.Диск</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ТранспортСообщенийОбменаЯндексДиск.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="aab354e1-9052-477a-9b98-c5f9ac578620">
+    <name>AccessToken</name>
+    <synonym>
+      <key>ru</key>
+      <value>Access token</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6e8a4d6d-80ba-4142-bd8d-afa383de837b">
+    <name>ClientID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Client ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e2d6f66e-6b41-4d12-85ca-0af7c2693534">
+    <name>ClientSecret</name>
+    <synonym>
+      <key>ru</key>
+      <value>Client secret</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c9e4e4fb-7d8c-4d0b-afc7-6ecb9f2b5abd">
+    <name>ExpiresIn</name>
+    <synonym>
+      <key>ru</key>
+      <value>Expires in</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b20e0d82-85c1-4f9c-afd1-55f7b71b06ac">
+    <name>RefreshToken</name>
+    <synonym>
+      <key>ru</key>
+      <value>Refresh token</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="88315362-844d-4698-860d-24901e51332d">
+    <name>КаталогВОблаке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог в облаке</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="82a00b83-499b-4146-9cfa-e676833401fb">
+    <name>ПарольАрхиваСообщенияОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль архива сообщения обмена</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5cf49504-22dc-4e8b-b572-eb6525977925">
+    <name>СжиматьФайлИсходящегоСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сжимать файл исходящего сообщения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a34acd7f-ee67-4cde-a2e7-890f009b1195">
+    <name>Транслитерация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транслитерация</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="bceb2a25-ab97-4e1c-a193-a1efd2d058c7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5b50b928-4ec0-4ebb-871b-18e3041b8f24">
+    <name>ФормаНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d32be162-d81e-4249-87c4-b08b2084cf90">
+    <name>ФормаПолученияТокена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма получения токена</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6caadb60-e172-4f3a-9dd1-85125773c169">
+    <name>ФормаАвторизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма авторизации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6febb670-c7a2-4e3a-8d39-8b045f8b9e48">
+    <name>ПолучениеТокена_ru</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получение токена</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

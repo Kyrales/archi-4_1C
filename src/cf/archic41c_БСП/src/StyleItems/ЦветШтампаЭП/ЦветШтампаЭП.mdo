@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43d91051-d5a2-4d2a-8447-7fa917e5ea38">
+  <name>ЦветШтампаЭП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвет штампа ЭП</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorRef">
+      <color>Web.SlateBlue</color>
+    </value>
+  </value>
+</mdclass:StyleItem>

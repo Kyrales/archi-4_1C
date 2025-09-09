@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca6013dd-6178-4139-9a8d-407e9acb0578">
+  <producedTypes>
+    <objectType typeId="45a259a5-54b8-439c-aefb-9146fe4a040f" valueTypeId="81f2f58b-ea05-4e1d-9e54-976ea8da1663"/>
+    <managerType typeId="9c362539-ef7c-43ed-a2e7-926a8c41598e" valueTypeId="bd895d9f-a4d3-4eea-a175-9d68c86daee5"/>
+  </producedTypes>
+  <name>ТранспортСообщенийОбменаCOM</name>
+  <synonym>
+    <key>ru</key>
+    <value>Транспорт сообщений обмена COM</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ТранспортСообщенийОбменаCOM.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="e3a5de01-ece0-466d-8415-56391ace87a8">
+    <name>ВариантРаботыИнформационнойБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант работы информационной базы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вариант работы информационной базы: 0 – файловый; 1 – клиент-серверный</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="411191b2-0ca7-4f61-a2c5-b63632558f2b">
+    <name>КаталогИнформационнойБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог информационной базы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="92e39f71-ee94-48c7-ba3f-b08f3c6f9fb5">
+    <name>АутентификацияОперационнойСистемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аутентификация операционной системы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="deddee3c-5014-492e-8602-4835ada77e15">
+    <name>ИмяПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a1e3b188-39d5-4f3d-bdbd-cfe61ac96c52">
+    <name>ПарольПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль пользователя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="407236b2-543d-4faa-9d8e-5fcb548f9818">
+    <name>ИмяСервера1СПредприятия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя сервера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="af5da854-1b45-43a6-9ca7-f998dca3f869">
+    <name>ИмяИнформационнойБазыНаСервере1СПредприятия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя информационной базы на сервере</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="955cf6fa-7723-4f7c-9666-59be7415bbc5">
+    <name>ПродолжениеНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продолжение настройки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="1415ba25-2477-4d93-b248-95235d5086ed">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4f158e2f-bd70-4cb1-8200-4e5c6a98bdf6">
+    <name>ФормаНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="52895190-0133-4244-82b2-18b30a97e16f">
+    <name>ФормаАутентификации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма аутентификации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a138ea0b-b564-46d9-b52a-bc8d2876bc15">
+  <name>ПараметрыАвторизацииВСервисеМобильнойПодписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры авторизации в сервисе мобильной подписи</value>
+  </synonym>
+  <type>
+    <types>FixedStructure</types>
+  </type>
+</mdclass:SessionParameter>

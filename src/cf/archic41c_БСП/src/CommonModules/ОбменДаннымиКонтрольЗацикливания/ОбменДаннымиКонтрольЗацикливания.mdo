@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="740a6d15-23e8-43a0-af3c-71a544f8fa4f">
+  <name>ОбменДаннымиКонтрольЗацикливания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными контроль зацикливания</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

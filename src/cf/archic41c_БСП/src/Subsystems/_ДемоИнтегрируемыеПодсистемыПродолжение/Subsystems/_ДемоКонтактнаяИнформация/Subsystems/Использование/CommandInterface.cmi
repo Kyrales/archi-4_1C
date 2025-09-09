@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Document._ДемоЗаказПокупателя.StandardCommand.OpenList</commands>
+      <commands>Catalog._ДемоКонтактныеЛицаПартнеров.StandardCommand.OpenList</commands>
+      <commands>Catalog._ДемоКонтрагенты.StandardCommand.OpenList</commands>
+      <commands>Catalog._ДемоНоменклатура.StandardCommand.OpenList</commands>
+      <commands>Catalog._ДемоПартнеры.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelCreate</group>
+      <commands>Document._ДемоЗаказПокупателя.StandardCommand.Create</commands>
+      <commands>Catalog._ДемоКонтактныеЛицаПартнеров.StandardCommand.Create</commands>
+      <commands>Catalog._ДемоКонтрагенты.StandardCommand.Create</commands>
+      <commands>Catalog._ДемоКонтрагенты.StandardCommand.CreateFolder</commands>
+      <commands>Catalog._ДемоНоменклатура.StandardCommand.CreateFolder</commands>
+      <commands>Catalog._ДемоПартнеры.StandardCommand.Create</commands>
+      <commands>Catalog._ДемоПартнеры.StandardCommand.CreateFolder</commands>
+      <commands>Catalog._ДемоНоменклатура.StandardCommand.Create</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4249f45b-b298-4d42-9ca2-bd80b87f2150">
+  <name>ИспользоватьНастройкиПодключенияВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать настройки подключения в модели сервиса</value>
+  </synonym>
+  <location>InformationRegister.ОбщиеНастройкиУзловИнформационныхБаз.Resource.ИспользоватьНастройкиПодключенияВМоделиСервиса</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

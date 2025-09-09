@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ef368c9-82ca-4d93-8386-599a3b0b6048">
+  <producedTypes>
+    <objectType typeId="f6c3c5f2-f959-4299-9dba-23df75455017" valueTypeId="81c552e2-9921-4e23-9756-26d6c48a39db"/>
+    <managerType typeId="5fa4c80a-b00d-403b-a0ce-72b7fce56652" valueTypeId="f426c271-0450-4e05-8993-0dd08dc70c3f"/>
+  </producedTypes>
+  <name>ГенерацияUMLДиаграмм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Генерация UML диаграмм</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ГенерацияUMLДиаграмм.Form.Форма</defaultForm>
+  <forms uuid="fda515e4-f6e2-4879-adda-6262d3cf9684">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

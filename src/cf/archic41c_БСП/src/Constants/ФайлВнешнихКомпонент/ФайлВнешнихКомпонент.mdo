@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c06b563c-3e4b-4114-86a5-6c0cc41307e9">
+  <producedTypes>
+    <managerType typeId="f8a3b3a2-65d1-4d9d-a5d2-36ff6703c0ad" valueTypeId="3852ba6b-bc22-48a3-9331-63681f06e99a"/>
+    <valueManagerType typeId="72f539d7-35af-4a6f-be25-b6fd6cfed8bf" valueTypeId="66697775-abd8-4571-a295-4f4dcf9a7105"/>
+    <valueKeyType typeId="56ea5dad-515f-4b1c-b84c-c52a18054f9e" valueTypeId="3ea5891a-d656-4e9a-817e-7c80ac2b153b"/>
+  </producedTypes>
+  <name>ФайлВнешнихКомпонент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Файл внешних компонент</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

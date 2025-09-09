@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0de519f2-fd1f-47e2-a4c0-3b8dfc664b8a">
+  <producedTypes>
+    <refType typeId="0574bab5-d64b-4df2-9609-31e39487e10e" valueTypeId="6511a4f3-664b-4da2-b7b1-51b1a08a2c3b"/>
+    <listType typeId="da2fb879-1ab0-41c4-9591-a4d982e3910a" valueTypeId="839eda3d-85e5-44c4-a074-a0a8e3af9dd3"/>
+    <managerType typeId="639a0bf1-5b9c-40bd-bc9d-449b13eb94dd" valueTypeId="205c4ccc-c8fd-4a00-bf1d-dd6171157fbb"/>
+  </producedTypes>
+  <name>КонтурыИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контуры интеграции</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fb20be46-f993-4cc3-8d51-dd875f5c3f8c">
+    <name>Внутренний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутренний</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="60313f48-4b6b-4820-8ee1-886e97933703">
+    <name>Внешний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешний</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8cc4e0f-e9c2-4a24-a50e-f5be5ed21019">
+  <name>ИнтерфейсODataПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интерфейс o data переопределяемый</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

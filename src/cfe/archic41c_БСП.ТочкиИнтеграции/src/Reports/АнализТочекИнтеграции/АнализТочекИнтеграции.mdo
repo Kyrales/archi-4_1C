@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3474c675-91ad-4ac4-9b8d-45c9affecfac">
+  <producedTypes>
+    <objectType typeId="5a8bfc8f-32e6-47a8-812a-e78dae292703" valueTypeId="ddfbdd24-6d80-45a4-b295-878f8d8e8e42"/>
+    <managerType typeId="ca6e0d8f-8526-4e0b-8ecc-c4a9a7aefcb0" valueTypeId="6927565e-0d93-49f4-be10-a731ff303583"/>
+  </producedTypes>
+  <name>АнализТочекИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ точек интеграции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АнализТочекИнтеграции.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="e490ff45-370b-4f10-9611-c4d785108125">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

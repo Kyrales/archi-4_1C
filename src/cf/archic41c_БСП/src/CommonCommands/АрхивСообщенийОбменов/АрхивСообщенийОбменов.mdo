@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85d6d214-2b70-4cc4-ba80-f4325dd4ca65">
+  <name>АрхивСообщенийОбменов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Архив сообщений обменов</value>
+  </synonym>
+  <group>CommandGroup.ПараметрыСинхронизацииДанных</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

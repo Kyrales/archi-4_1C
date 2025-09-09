@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8264b98b-7eec-4651-96fc-02620c87f274">
+  <producedTypes>
+    <selectionType typeId="f0f2f30b-8467-4595-a597-a5ed43410ce6" valueTypeId="4b6c122f-2c19-46ef-aa7a-f0e0fe4fdd6d"/>
+    <listType typeId="260fd712-a935-4cba-8116-bb4b3101baae" valueTypeId="9208844f-a9dc-4283-bdf0-9f0f1110afbc"/>
+    <managerType typeId="a5a93acb-ef7b-4e85-8752-6970a67cc51d" valueTypeId="8def1457-8687-4ffa-bf8d-2a6dfad42a66"/>
+    <recordSetType typeId="c13cd49c-0943-4520-9136-d93e5baa1adc" valueTypeId="15c5f0b9-9900-4441-add0-aa5da5e99753"/>
+    <recordKeyType typeId="53fc5766-5cb1-4d34-8d6d-e7671c0daee9" valueTypeId="fa567ebb-546e-4de5-a2c4-6557cc0133d8"/>
+    <recordType typeId="b40c6871-0548-4463-8323-576a785318ef" valueTypeId="eb025de4-966c-490c-88a1-461aead1b332"/>
+    <recordManagerType typeId="0d8c3160-2f34-4357-abf1-87e2bcf26194" valueTypeId="1246a6d3-b4a8-430f-83bb-02561f712598"/>
+  </producedTypes>
+  <name>ДополнительныеАдресныеСведения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные адресные сведения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="bcd6e5f0-a800-4f21-ad75-24c428157cee">
+    <name>ПочтовыйИндекс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Почтовый индекс</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9f351f0a-2d43-4215-8d74-040911230683">
+    <name>ОКТМО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОКТМО</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>11</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6a9c1bd4-b550-4911-a8d1-321a7713a5a5">
+    <name>OKATO</name>
+    <synonym>
+      <key>ru</key>
+      <value>OKATO</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>11</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="019fa716-e91a-4116-abcf-c87349c153a4">
+    <name>КодУчасткаИФНСЮЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код участка ИФНСЮЛ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Код участка ИФНС для юридического лица</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f9fed640-0121-4c36-a822-0db7a9155adc">
+    <name>КодУчасткаИФНСФЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код участка ИФНСФЛ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Код участка ИФНС для физического лица</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e418d7c4-7322-41b1-a8df-d86a11f7711c">
+    <name>КодИФНСЮЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код ИФНСЮЛ</value>
+    </synonym>
+    <comment>Код ИФНС для юридического лица</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Код ИФНС для юридического лица</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b8a6ea0c-cb94-44af-8e40-55defed295d1">
+    <name>ОКТМОБюджетополучателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОКТМО Бюджетополучателя</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3fcdfe26-1668-4aa7-bb10-ef8d8bd0ae39">
+    <name>КодИФНСФЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код ИФНСФЛ</value>
+    </synonym>
+    <comment>Код ИФНС для физического лица</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Код ИФНС для физического лица</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="a0ebcc8a-267b-4f95-a986-46db8fb5df4d">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9c890915-1ae3-457e-8a3d-7b39f181304b">
+    <name>КодСубъектаРФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код субъекта РФ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

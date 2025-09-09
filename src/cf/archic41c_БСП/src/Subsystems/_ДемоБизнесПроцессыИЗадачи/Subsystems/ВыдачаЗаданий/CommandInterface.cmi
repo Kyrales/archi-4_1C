@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>BusinessProcess._ДемоЗаданиеСРолевойАдресацией.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>BusinessProcess.Задание.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>BusinessProcess._ДемоЗаданиеСРолевойАдресацией.StandardCommand.Create</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>BusinessProcess.Задание.StandardCommand.Create</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Document._ДемоЗаказПокупателя.StandardCommand.OpenList</commands>
+      <commands>Document._ДемоСчетНаОплатуПокупателю.StandardCommand.OpenList</commands>
+      <commands>BusinessProcess._ДемоЗаданиеСРолевойАдресацией.StandardCommand.OpenList</commands>
+      <commands>BusinessProcess.Задание.StandardCommand.OpenList</commands>
+      <commands>Catalog.Пользователи.StandardCommand.OpenList</commands>
+      <commands>Catalog.Файлы.Command.Файлы</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a8a9f48-315d-4d71-b092-0530801f8fec">
+  <name>СервисМобильнойПодписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис мобильной подписи</value>
+  </synonym>
+  <content>SessionParameter.ПараметрыАвторизацииВСервисеМобильнойПодписи</content>
+  <content>Catalog.ПодписантыСервисаМобильнойПодписи</content>
+  <content>Enum.СервисМобильнойПодписиСтатусы</content>
+  <content>InformationRegister.СервисМобильнойПодписиСтатусы</content>
+  <content>CommonModule.СервисМобильнойПодписиСлужебный</content>
+  <content>CommonModule.СервисМобильнойПодписиКлиентСервер</content>
+  <content>Enum.СервисМобильнойПодписиОперации</content>
+  <content>Role.ДобавлениеИзменениеПодписантовМобильногоСервиса</content>
+  <content>Constant.ИспользоватьСервисМобильнойПодписи</content>
+  <content>FunctionalOption.ИспользоватьСервисМобильнойПодписи</content>
+  <content>CommonModule.СервисМобильнойПодписиКлиент</content>
+  <content>CommonModule.СервисМобильнойПодписиПереопределяемый</content>
+  <content>CommonModule.СервисМобильнойПодписиСлужебныйВызовСервера</content>
+  <content>ScheduledJob.ПолучениеРезультатовИзСервисаМобильнойПодписи</content>
+  <content>CommonModule.СервисМобильнойПодписи</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

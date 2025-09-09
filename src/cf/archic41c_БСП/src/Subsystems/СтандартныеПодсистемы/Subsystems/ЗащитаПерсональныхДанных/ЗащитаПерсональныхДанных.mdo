@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4562287-440d-4462-9de2-7097ccbf3764">
+  <name>ЗащитаПерсональныхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Защита персональных данных</value>
+  </synonym>
+  <comment>Защита персональных данных (в соответствии с требованиями 152-ФЗ)</comment>
+  <content>DataProcessor.ЗащитаПерсональныхДанных</content>
+  <content>EventSubscription.ПроверитьДатуЗапретаИзмененияПередЗаписьюДокументаЗащитаПерсональныхДанных</content>
+  <content>CommonModule.ЗащитаПерсональныхДанныхПовтИсп</content>
+  <content>CommonPicture.КоллекцияКонтролируемыеСобытия152ФЗ</content>
+  <content>Report.СогласияНаОбработкуПерсональныхДанныхДействующие</content>
+  <content>InformationRegister.СрокиХраненияПерсональныхДанных</content>
+  <content>CommonModule.ЗащитаПерсональныхДанныхКлиент</content>
+  <content>CommonModule.ЗащитаПерсональныхДанныхПереопределяемый</content>
+  <content>CommonModule.ЗащитаПерсональныхДанных</content>
+  <content>DefinedType.СубъектПерсональныхДанных</content>
+  <content>InformationRegister.УничтоженныеПерсональныеДанные</content>
+  <content>StyleItem.СобытиеОтказ</content>
+  <content>CommonPicture.КоллекцияОтсутствуетСогласие</content>
+  <content>InformationRegister.ОбластиПерсональныхДанных</content>
+  <content>FunctionalOption.ИспользоватьСкрытиеПерсональныхДанныхСубъектов</content>
+  <content>CommonForm.НастройкиРегистрацииСобытийДоступаКПерсональнымДанным</content>
+  <content>Document.СогласиеНаОбработкуПерсональныхДанных</content>
+  <content>DocumentJournal.СогласияНаОбработкуПерсональныхДанных</content>
+  <content>Document.ОтзывСогласияНаОбработкуПерсональныхДанных</content>
+  <content>InformationRegister.СогласияНаОбработкуПерсональныхДанных</content>
+  <content>EventSubscription.СубъектПерсональныхДанныхПередЗаписью</content>
+  <content>Report.СогласияНаОбработкуПерсональныхДанныхИстекающие</content>
+  <content>Enum.СостоянияСубъектовДляСкрытия</content>
+  <content>DataProcessor.СкрытиеКонфиденциальнойИнформации</content>
+  <content>EventSubscription.ПроверитьДатуЗапретаИзмененияПередУдалениемЗащитаПерсональныхДанных</content>
+  <content>CommonPicture.ОтсутствуетСогласие</content>
+  <content>InformationRegister.СубъектыДляРасчетаСроковХранения</content>
+  <content>Constant.ИспользоватьСкрытиеПерсональныхДанныхСубъектов</content>
+  <content>InformationRegister.СубъектыДляСкрытияПерсональныхДанных</content>
+  <content>CommonModule.ЗащитаПерсональныхДанныхВызовСервера</content>
+  <content>InformationRegister.УдалитьОбластиПерсональныхДанных</content>
+  <content>Document.АктОбУничтоженииПерсональныхДанных</content>
+  <content>ScheduledJob.РасчетСроковХраненияПерсональныхДанных</content>
+  <content>DataProcessor.УничтожениеПерсональныхДанных</content>
+  <content>EventSubscription.УстановитьПрефиксИнформационнойБазыИОрганизацииНомеруДокументаЗащитаПДн</content>
+  <content>CommonModule.ЗащитаПерсональныхДанныхСлужебный</content>
+  <content>CommonModule.ЗащитаПерсональныхДанныхУничтожениеПовтИсп</content>
+  <content>DefinedType.СубъектПерсональныхДанныхОбъект</content>
+  <content>EventSubscription.СубъектПерсональныхДанныхПриЗаписи</content>
+  <content>Role.ДобавлениеИзменениеАктовОбУничтоженииПерсональныхДанных</content>
+  <content>Role.ЧтениеАктовОбУничтоженииПерсональныхДанных</content>
+  <content>Role.ИспользованиеОбработкиУничтожениеПерсональныхДанных</content>
+  <content>Role.ДобавлениеИзменениеСогласийНаОбработкуПерсональныхДанных</content>
+  <content>Role.ЧтениеСогласийНаОбработкуПерсональныхДанных</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

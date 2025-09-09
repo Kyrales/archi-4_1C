@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a68504e-b667-4c42-a72e-cdac72ae4018">
+  <producedTypes>
+    <managerType typeId="54baf7e1-b323-48aa-870c-0b86e886314e" valueTypeId="8e38272e-7533-4dcb-94f9-d19d7b5d36fa"/>
+    <valueManagerType typeId="d9284304-f0f8-48b3-ac0d-4fe5f3caced3" valueTypeId="8bf131f4-afce-46ae-9a9c-9441b76e9260"/>
+    <valueKeyType typeId="98c5e654-3d34-45f4-a392-fe6106e0ad43" valueTypeId="e0a31788-86c8-433e-964a-7c37576a6cab"/>
+  </producedTypes>
+  <name>АутентификацияТокеномДоступаВнутреннихВызововПрограммногоИнтерфейса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аутентификация токеном доступа внутренних вызовов программного интерфейса</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

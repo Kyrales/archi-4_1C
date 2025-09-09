@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Task.ЗадачаИсполнителя.Command.МоиЗадачи</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Task.ЗадачаИсполнителя.Command.ВсеЗадачи</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>Task.ЗадачаИсполнителя.Command.МоиЗадачи</commands>
+      <commands>Task.ЗадачаИсполнителя.Command.ВсеЗадачи</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>Task.ЗадачаИсполнителя.Command.МоиЗадачи</commands>
+      <commands>Task.ЗадачаИсполнителя.Command.ВсеЗадачи</commands>
+    </orderFragments>
+  </commandsOrder>
+  <subsystemsOrder>
+    <subsystems>Subsystem._ДемоБизнесПроцессыИЗадачи.Subsystem.НастройкаРолевойАдресации</subsystems>
+    <subsystems>Subsystem._ДемоБизнесПроцессыИЗадачи.Subsystem.ВыдачаЗаданий</subsystems>
+    <subsystems>Subsystem._ДемоБизнесПроцессыИЗадачи.Subsystem.КонтрольИсполнения</subsystems>
+    <subsystems>Subsystem._ДемоБизнесПроцессыИЗадачи.Subsystem.ИсполнениеЗадач</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

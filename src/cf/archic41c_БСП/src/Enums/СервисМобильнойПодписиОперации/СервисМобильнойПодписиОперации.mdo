@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d812412-6e01-4063-81ae-4b8f3a071b11">
+  <producedTypes>
+    <refType typeId="406fea7b-17a4-4bfc-9e2f-b6467e128ef3" valueTypeId="711e1aa1-ee96-49b0-b01a-46c308f1d710"/>
+    <listType typeId="c1293be9-4050-422d-ad18-69b94dcb4aff" valueTypeId="35ab8548-c666-4adc-8e4f-14a639ed69ea"/>
+    <managerType typeId="2eaa3149-6174-41ee-9740-15d5a9e32051" valueTypeId="601d005c-9c38-47ce-b357-88dfd9083a51"/>
+  </producedTypes>
+  <name>СервисМобильнойПодписиОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис мобильной подписи операции</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9a3094c0-fa79-4ad6-8fa1-c9f58f37c06f">
+    <name>Подписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подписание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="84d3ea39-442c-4b2f-8331-1cccfc429b32">
+    <name>ПроверкаПодписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка подписи</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
